@@ -15,9 +15,9 @@
 - Twitter: [@oec014](http://twitter.com/oec014)
 - 株式会社ドッグラン 代表
 - 開発＆デザイン
-    - 生命科学研究分野のデータ可視化ツール開発
-    - 同じく生命科学研究分野の日本語コンテンツサービスの開発
-    
+    - 生命科学研究分野のデータ可視化サービスを開発しています。
+    - 同じく生命科学研究分野の日本語コンテンツサービスの開発もしています。
+
 +++
 
 ## 4.1 配列データ解析
@@ -171,24 +171,74 @@ Output alignment [sample_eaa1.water]:
 
 FASTAパッケージに含まれているssearchというプログラムではSmith-Waterman法によるDB配列検索が用いられている。
 
-ssearchは
+ssearchはmacではhomebrewでインストールできる。
 ```
 brew install -v fasta
 ```
-でインストールできる。
+
 ssearchは-Tオプションでスレッド数を指定でき、結果をえるまでの実行時間を短縮することができる。
+コンピュータの並列処理によるデータベース配列検索がssearchに寄って可能になった。
 
 +++
 
 ##### FASTA 法
 
+局所的アライメントは当初FASTAがよく用いられていた。
+
+FASTAは
+1. 文字のかたまりとして行うギャップを考慮しない初期検索
+1. 初期検索で見つかった領域を複数つなぎ合わせて得られる領域のうち最もスコアの高い周辺でSmith-Waterman法によるアラインメントを実行
+1. 各配列の長さや、DB全体のサイズを考慮した統計値のz-scoreと期待値が計算されて、最終的な配列類似性の評価に用いられる。
 
 
++++
+
+FANTOMプロジェクトのcDNA解析の際には、フレームシフトを考慮してクエリの塩基配列をアミノ酸に翻訳して
+配列比較を行うプログラムの __fastx__ と __fasty__ が有用だったとのこと。
+
+fastyと同様にフレームシフトを許して、アミノ酸配列をゲノムやESTの塩基配列にペアワイズするアライメントツールとして
+__GeneWise__ もある。
+
+__genewise__ はイントロンを考慮してアミノ酸配列をゲノム配列に対して、
+
+__estwise__ はアミノ酸配列をcDNA/EST配列に大してそれぞれペアワイズアライメントするプログラム
+
+このプログラムは、[EBIのWebインターフェース](https://www.ebi.ac.uk/Tools/psa/genewise/)から利用でき、
+またmacOSではHomebrewでローカルマシンにインストールすることができる。
 
 
+```
+brew instawll -v genewise
+```
+
++++
+
+##### BLAST
+
+NCBIで開発された配列類似性検索のためのツール
+
+macOSだとHomebrewでインストールすることができる。
+
+```
+brew install -v blast
+```
+
+ローカルマシンでの利用だけでなく、[NCBIのWebサイト](https://blast.ncbi.nlm.nih.gov/Blast.cgi)でもBLASTを利用することはできる。
+Weサイトからの利用では、検索対象DBはサーバにありqueryだけ自前で準備すれば良い。
+NCBIのBLASTでは目的別の多用な目的用の検索が用意されている。詳細は[統合TV](http://doi.org/10.7875/togotv.2017.023)を見てください。
+
+下図はある塩基配列を[NCBI BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi)にかけた結果返ってきたアラインメント。
+
+![アラインメント](NCBI_BLAST_result_alignment.png)
+
++++
+
+##### BLASTのコマンド
 
 
-    - BLAST
+非常に高速なアライメントツールだったBLASTが
+BLAST2となりギャップを許す配列検索となったことで、、
+
     - BLAT
     
     
