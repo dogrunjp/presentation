@@ -16,7 +16,7 @@
 - 株式会社ドッグラン 代表
 - 開発＆デザイン
     - 生命科学研究分野のデータ可視化サービスを開発しています。
-    - 同じく生命科学研究分野の日本語コンテンツサービスの開発もしています。
+    - 同じく生命科学研究分野の日本語コンテンツサービスの開発しています。
 
 +++
 
@@ -49,7 +49,7 @@ __EMBOSSパッケージ__ として利用できます。
 
 Macの場合はパッケージ管理システムの[Homebrew](https://brew.sh/index_ja.html)
 ```
-brew install -v EMBOSS
+$ brew install -v EMBOSS
 
 ```
 でインストールできます。
@@ -173,7 +173,7 @@ FASTAパッケージに含まれているssearchというプログラムではSm
 
 ssearchはmacではhomebrewでインストールできる。
 ```
-brew install -v fasta
+$ brew install -v fasta
 ```
 
 ssearchは-Tオプションでスレッド数を指定でき、結果をえるまでの実行時間を短縮することができる。
@@ -183,7 +183,7 @@ ssearchは-Tオプションでスレッド数を指定でき、結果をえる�
 
 ##### FASTA 法
 
-局所的アライメントは当初FASTAがよく用いられていた。
+局所的アライメントは高速なBLASTがギャップを許容しない配列検索だったことから、当初FASTAがよく用いられていた。
 
 FASTAは
 1. 文字のかたまりとして行うギャップを考慮しない初期検索
@@ -208,19 +208,18 @@ __estwise__ はアミノ酸配列をcDNA/EST配列に大してそれぞれペア
 
 
 ```
-brew instawll -v genewise
+$ brew instawll -v genewise
 ```
 
 +++
 
 ##### BLAST
 
-NCBIで開発された配列類似性検索のためのツール
-
-macOSだとHomebrewでインストールすることができる。
+BLAST(Basic Local Alignment Search Tool)はNCBIで開発された配列類似性検索のためのツール
+macOSではHomebrewでローカルマシンにインストールすることができる。
 
 ```
-brew install -v blast
+$ brew install -v blast
 ```
 
 ローカルマシンでの利用だけでなく、[NCBIのWebサイト](https://blast.ncbi.nlm.nih.gov/Blast.cgi)でもBLASTを利用することはできる。
@@ -235,23 +234,176 @@ NCBIのBLASTでは目的別の多用な目的用の検索が用意されてい�
 
 ##### BLASTのコマンド
 
+BLASTのquery配列はFASTA形式、コマンドラインツールを利用する際のDBとして
+はmulti-FASTA形式の塩基 OR アミノ酸配列である必要がある。
 
-非常に高速なアライメントツールだったBLASTが
-BLAST2となりギャップを許す配列検索となったことで、、
+DBはBLAST検索用にindexを形成して置く必要があるが、
+下記コマンドの __makeblastdb__ でindexは作成できる。このツールはblastインストール時に同時にインストールされる。
 
-    - BLAT
-    
+
+BLASTの実行はqueryとDBの組み合わせ（塩基配列とアミノ酸配列）
+によって使うプログラムが異なる。
+
+queryとDBに塩基配列のケースでは、コマンドは下記のようになる。
+```
+$ blastn -query sample_query.fa -db sample_genome.fa
+```
+
+BLASTのプログラムには __blastn__, __tblastx__, __blastx__, __tblastn__, __blastp__　がある。
+塩基配列レベルの比較を行うのはblastnのみ。tblastnとtblastxは塩基配列をアミノ酸に翻訳しながら配列比較するため、
+他のプログラムに比べると実行時間ははるかに長くなる。
+
++++
+
+デフォルトのBLASTの出力は目でアラインメントを見て評価するという目的には合致するが、
+コンピュータに大量に処理させる目的には向いていない。そのため、出力オプションの __-ouftmt__ で別の出力形式を選択し、
+大量処理用に出力することがよく行われる。
+
+BLASTの __-outfmt__ などのオプションについては[NCBIのコマンドラインユーザマニュアル](https://www.ncbi.nlm.nih.gov/books/NBK279684/)のTable C1に記述があります。
+また、[統合TVにもLocal BLASTの使い方について2017年にアップデートされた動画](http://doi.org/10.7875/togotv.2017.045)があり、
+この動画でもLocal BLASTのオプションなどについて学習することができます。
+
+
++++
+##### BLAT
+BLAT（The BLAST-Like Alignment Tool）は検索対象を __リファレンスゲノム配列__ に特化させた配列類似性検索のためのツール。
+リファレンスゲノムのみを対象のDBとし、ほぼ一致する領域を探すことに特化しているため非常に高速。
+
+[UCSC Genome Browser](https://genome.ucsc.edu/cgi-bin/hgBlat)のサイトにあるウェブインターフェースから利用されることが多い。
+[統合TVの2017の動画で](http://doi.org/10.7875/togotv.2017.093)UCSCのウェブサイトからり利用できるBLATの使い方が紹介されています。
+また、macOSであれば下記のようにHomebrewでローカルマシンにインストールすることもできる。
+
+```
+$ brew install -v blat
+```
+
+コマンドラインで実行する場合、queryはFASTあるいはmulti-FASTA形式、検索対象のDBはmulti-FASTA、
+出力がPSL形式となります。
+
++++
     
 #### 多重配列アライメントと系統樹
 
+多重配列アラインメントできるだけギャップを入れないようにして、三本以上のアミノ酸もしくわ塩基配列を並べる手法。
+アラインメントした結果から __分子系統樹__ が推定され、その結果を見てまたアラインメントを改良するという、
+多重配列アラインメントと分子系統樹は非常に密接な関係にある。
+
+多重配列アラインメントのツールとして __Clustalシリーズ__ が使われてきた。FORTRANで書かれたClustalシリーズが使われていたが、
+その後C言語で書き直された __ClustalV__ やその改良版の __ClustalW__ が広く使われてきた。
+
+ClustalWでは入力された配列の全てのペアでアラインメントを作成しスコアが計算され、
+配列ペア間の全スコアをもとにガイドツリーが作成される。現在ではガイドツリー作成が高速化された __Clustal Omega__ が利用可能になっている。
+
++++
+
+Clustal Omegaは[EBIのウェブインターフェース](https://www.ebi.ac.uk/Tools/msa/clustalo/)で手軽に利用できる。
+macOSの場合はHomebrewで以下のようにインストールすることができる<sup>[*](#note1)</sup>
+
+```
+$ brew install -v clustal-omega
+```
+*自分の環境（macOS 10.12.6）ではbrew installでMake errorが発生しました。
+Clustal omegaはanacondaのパッケージの一つである[biocondaからもインストールできる](https://anaconda.org/bioconda/clustalo)ので、
+こちらを利用しても良いかもしれません。
+```
+$ conda install -c bioconda clustalo 
+```
+
+clustaloコマンドを以下のように入力するとアライメントの結果のギャップが入ったmulti-FASTA形式のファイルが出力される。
+```
+$ clustalo -i unaligned.mfa -o aligned.mfa
+```
++++
+
+よく利用される多重配列アラインメントプログラムとして一万個以上の配列に対してアライメント可能な __MAFFT__ がある。
+
+MAFFTはClustal Omega同様、ウェブインターフェースでも、下記のようにインストールしてコマンドラインからでも利用することができる。
+
+```markdown
+$ brew install -v mafft
+```
+```markdown
+$ mafft unaligned.mfa > aligned.mfa
+```
++++
+
+Clustal OmegaやMAFFTで作成した多重配列アラインメントの結果はJalviewなどのソフトウェアで可視化できます。
+様々なバージョンのアプリケーションが[サイト](http://www.jalview.org)からダウンロードでき、
+使い方は統合TV[「Jalviewを使って配列解析・系統樹作成をする 2013」](http://doi.org/10.7875/togotv.2013.049)で学習できます。
+
+![Jalviewで生成した系統樹](Jalview_tree.png)
++++
 
 ### マッピング（Suffix Array）
-- BWAとBowtie
-- GGRNAとGGGenome
+
+次世代シークエンサーの登場で個人ゲノム配列や様々なサンプルの転写産物の配列が大量に解読できるようになりました。
+限定されたクエリ配列を用いた巨大なDBの検索から、
+読まれた膨大の配列データは、まずヒトゲノムやマウスゲノムにマッピングするのが現在の配列類似性検索です。
+
+巨大なクエリとなるデータを用いて、配列類似性を超高速に行うのを可能にした、 __特別なインデックス化__ を用いた技術が
+ __Suffix Array__ です。
+
++++
+
+#### Suffix Arrayを利用したソフトウェア
+
+__BWA__ と __Bowtie__ は次世代シークエンサーから出たデータをリファレンスゲノムにマッピングすることに特化した
+ソフトウェアです。検索対象のDB（リファレンスゲノム配列）があらかじめ[Burrows Wheeler Transform(BWT)](https://research.preferred.jp/2012/11/burrows-wheeler-transform-lf-mapping/)で前処理されていて
+検索対象文字列の出現位置を高速に検索でき、また非常に短い配列でも検索可能です。
+
+BWAの場合インデックス作成は、multi-Fasta形式のリファレンスゲノム配列hogenome.faである場合下記のように指定する。
+
+```
+$ bwa index hogenome.fa
+```
+
+Bowtieの場合はbowtie-buildコマンドを用いる
+
+```
+$ bowtie-build hogenome.fa honenome
+```
+
+ヒトやマウスの場合、BWAやBowtie用のインデックス作成済みのリファレンスゲノム配列ファイルが提供されているので、
+それを使うことができる。
+
++++
+
+実際の検索は
+
+```markdown
+bwa t4mem hogenome.fa hoge.fastq.gz > hoge.sam
+```
+
+```markdown
+bowtie -q -x hogenome -S hoge.sam -p 4 hoge.fastq.gz
+```
+
+のように行う。
+
+これらの計算は、コンピュータに非常に大きな負荷がかかるため、並列化が必須で、
+自らの環境に合わせたスレッド数の設定を指定する必要がある。
+
++++
+
+#### GGRNAとGGGenome
+
+BWAやBowtieと同様Suffix Arrayを利用したツールとして、
+[GGRNA](https://ggrna.dbcls.jp/ja/)と[GGGenome](http://gggenome.dbcls.jp)が
+[DBCLS](http://dbcls.rois.ac.jp/)のサービスとして公開されていてる。
+
+これらサービスを使うとGoogleで検索するように塩基配列の検索を行うことができる。
+
+
++++
 
 ### アッセンブル
-- ゲノム配列のアッセンブル
-- 転写配列のアッセンブル
+
+#### ゲノム配列のアッセンブル
+
+
++++
+
+#### 転写配列のアッセンブル
 
 +++
 
@@ -275,4 +427,10 @@ BLAST2となりギャップを許す配列検索となったことで、、
 
 
 
++++
+### 最後に
+
+
+Macを持っている、大学に自由に使えるMacがあるようでしたら、４章のツールは一通りインストールして試してみることができます。
+興味のある配列などがあるようだったらすぐに使えるツールが公開されています。
 
