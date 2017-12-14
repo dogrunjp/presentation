@@ -228,7 +228,7 @@ NCBIのBLASTでは目的別の多用な目的用の検索が用意されてい�
 
 下図はある塩基配列を[NCBI BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi)にかけた結果返ってきたアラインメント。
 
-![アラインメント](NCBI_BLAST_result_alignment.png)
+![アラインメント](images/NCBI_BLAST_result_alignment.png)
 
 +++
 
@@ -331,7 +331,7 @@ Clustal OmegaやMAFFTで作成した多重配列アラインメントの結果�
 様々なバージョンのアプリケーションが[サイト](http://www.jalview.org)からダウンロードでき、
 使い方は統合TV[「Jalviewを使って配列解析・系統樹作成をする 2013」](http://doi.org/10.7875/togotv.2013.049)で学習できます。
 
-![Jalviewで生成した系統樹](Jalview_tree.png)
+![Jalviewで生成した系統樹](./images/Jalview_tree.png)
 +++
 
 ### マッピング（Suffix Array）
