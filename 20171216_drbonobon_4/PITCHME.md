@@ -194,7 +194,7 @@ ssearchは-Tオプションでスレッド数を指定でき、結果をえる�
 
 +++
 
-局所的アライメントは高速なBLASTがギャップを許容しない配列検索だったことから、当初FASTAがよく用いられていた。
+局所的アライメントは高速なBLASTがギャップを許容しない配列検索だったことから、当初FASTAがよく用いられていました。
 
 +++
 
@@ -232,8 +232,9 @@ $ brew instawll -v genewise
 
 +++
 
-__BLAST(Basic Local Alignment Search Tool)__ はNCBIで開発された配列類似性検索のためのツール
-macOSではHomebrewでローカルマシンにインストールすることができる。
+__BLAST(Basic Local Alignment Search Tool)__ はNCBIで開発された配列類似性検索のためのツール。
+
+macOSではHomebrewでローカルマシンにインストールすることができます。
 
 ```
 $ brew install -v blast
@@ -241,7 +242,7 @@ $ brew install -v blast
 
 +++
 
-ローカルマシンでの利用だけでなく、[NCBIのWebサイト](https://blast.ncbi.nlm.nih.gov/Blast.cgi)でもBLASTを利用することはできる。
+ローカルマシンでの利用だけでなく、[NCBIのWebサイト](https://blast.ncbi.nlm.nih.gov/Blast.cgi)でもBLASTを利用することはできます。
 Weサイトからの利用では、検索対象DBはサーバにありqueryだけ自前で準備すれば良い。
 
 
@@ -279,14 +280,17 @@ $ blastn -query sample_query.fa -db sample_genome.fa
 
 +++
 
-BLASTのプログラムには __blastn__, __tblastx__, __blastx__, __tblastn__, __blastp__　がある。
+BLASTのプログラムには __blastn__, __tblastx__, __blastx__, __tblastn__, __blastp__　があります。
+
 塩基配列レベルの比較を行うのはblastnのみ。tblastnとtblastxは塩基配列をアミノ酸に翻訳しながら配列比較するため、
-他のプログラムに比べると実行時間ははるかに長くなる。
+他のプログラムに比べると実行時間ははるかに長くなります。
 
 +++
 
 デフォルトのBLASTの出力は目でアラインメントを見て評価するという目的には合致するが、
-コンピュータに大量に処理させる目的には向いていない。そのため、出力オプションの __-ouftmt__ で別の出力形式を選択し、
+コンピュータに大量に処理させる目的には向いていない。
+
+そのため、出力オプションの __-ouftmt__ で別の出力形式を選択し、
 大量処理用に出力することがよく行われる。
 
 +++
@@ -315,7 +319,7 @@ $ brew install -v blat
 ```
 
 コマンドラインで実行する場合、queryはFASTあるいはmulti-FASTA形式、検索対象のDBはmulti-FASTA、
-出力がPSL形式となリマス。
+出力がPSL形式となります。
 
 +++
     
@@ -338,7 +342,8 @@ ClustalWでは入力された配列の全てのペアでアラインメントを
 
 +++
 
-__Clustal Omega__ は[EBIのウェブインターフェース](https://www.ebi.ac.uk/Tools/msa/clustalo/)で手軽に利用できる。
+__Clustal Omega__ は[EBIのウェブインターフェース](https://www.ebi.ac.uk/Tools/msa/clustalo/)で手軽に利用できます。
+
 macOSの場合はHomebrewで以下のようにインストールすることができる<sup>[*](#note1)</sup>
 
 ```
@@ -562,8 +567,12 @@ $ brew install -v Trinity
 - 遺伝子発現解析では __XCluster__ や __TreeView__　がアカデミックフリーのソフトとして、
 有償のマイクロアレイデータ解析ソフトウェアとしてGeneSpringが使われてきた
 
-- 汎用の解析環境として、R言語の __Bioconductor__ で利用可能なパッケージを利用することが多い。
-- [TIBCO Spotfire](http://togotv.dbcls.jp/20170406.html)のような __Buisiness Inteligenct__ __(BI)__ ソフトウェアに階層クラスタリング機能をもつものもある。
+
++++
+汎用の解析環境として、R言語の __Bioconductor__ で利用可能なパッケージを利用することが多い。
+
+
+ [TIBCO Spotfire](http://togotv.dbcls.jp/20170406.html)のような __Buisiness Inteligenct__ __(BI)__ ソフトウェアに階層クラスタリング機能をもつものもあります。
 
 +++
 ### 主成分分析
