@@ -247,8 +247,9 @@ Weサイトからの利用では、検索対象DBはサーバにありqueryだ�
 NCBIのBLASTでは目的別の多用な目的用の検索が用意されている。詳細は[統合TV](http://doi.org/10.7875/togotv.2017.023)を見てください。
 
 +++
+次の図はある塩基配列を[NCBI BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi)にかけた結果返ってきたアラインメントです。
 
-下図はある塩基配列を[NCBI BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi)にかけた結果返ってきたアラインメント。
++++
 
 ![アラインメント](images/NCBI_BLAST_result_alignment.png)
 
@@ -374,9 +375,11 @@ $ mafft unaligned.mfa > aligned.mfa
 ```
 +++
 
-Clustal OmegaやMAFFTで作成した多重配列アラインメントの結果はJalviewなどのソフトウェアで可視化できます。
+Clustal OmegaやMAFFTで作成した多重配列アラインメントの結果は __Jalview__ などのソフトウェアで可視化できます。
 様々なバージョンのアプリケーションが[サイト](http://www.jalview.org)からダウンロードでき、
 使い方は統合TV[「Jalviewを使って配列解析・系統樹作成をする 2013」](http://doi.org/10.7875/togotv.2013.049)で学習できます。
+
++++
 
 ![Jalviewで生成した系統樹](./images/Jalview_tree.png)
 
