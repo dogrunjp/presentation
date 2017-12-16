@@ -1,7 +1,7 @@
 theme : simple
 theme-override : assets/css/PITCHME.css
 highlight : atom-one-light
-logo : assets/image/logo.png
+logo : images/dogrun_logo.png
 transition : none
 published : true
 footnote : "© 2017 dogrunjp"
