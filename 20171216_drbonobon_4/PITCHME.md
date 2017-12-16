@@ -139,6 +139,8 @@ EMBOSSでは __water__ というプログラムでSmith-Waterman法によるア�
 局所的アライメントでは、局所的によく似ている部分だけをアライメントしている。
 次の例では9アミノ酸配列と15アミノ酸配列をアライメントしているが似ている部分だけがアライメントされている。
 
++++
+
 ```
 $ water sample_eaa1.txt sample_eaa3.txt
 Smith-Waterman local alignment of sequences
@@ -234,7 +236,7 @@ NCBIのBLASTでは目的別の多用な目的用の検索が用意されてい�
 
 下図はある塩基配列を[NCBI BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi)にかけた結果返ってきたアラインメント。
 
-![アラインメント](images/NCBI_BLAST_result_alignment.png)
+![アラインメント](images/NCBI_BLAST_result_alignment.png = 200x)
 
 +++
 
@@ -304,7 +306,7 @@ ClustalWでは入力された配列の全てのペアでアラインメントを
 
 +++
 
-Clustal Omegaは[EBIのウェブインターフェース](https://www.ebi.ac.uk/Tools/msa/clustalo/)で手軽に利用できる。
+__Clustal Omega__ は[EBIのウェブインターフェース](https://www.ebi.ac.uk/Tools/msa/clustalo/)で手軽に利用できる。
 macOSの場合はHomebrewで以下のようにインストールすることができる<sup>[*](#note1)</sup>
 
 ```
@@ -339,7 +341,7 @@ Clustal OmegaやMAFFTで作成した多重配列アラインメントの結果�
 様々なバージョンのアプリケーションが[サイト](http://www.jalview.org)からダウンロードでき、
 使い方は統合TV[「Jalviewを使って配列解析・系統樹作成をする 2013」](http://doi.org/10.7875/togotv.2013.049)で学習できます。
 
-![Jalviewで生成した系統樹](./images/Jalview_tree.png)
+![Jalviewで生成した系統樹](./images/Jalview_tree.png =200x)
 +++
 
 ### マッピング（Suffix Array）
@@ -506,7 +508,6 @@ __主成分分析（PCA:Principal Component Analysis）__ は、
 
 多次元のデータの次元を圧縮し、より少ない次元で元のデータを表現することが狙いの解析で
 __R言語の標準関数 procomp__ や、__Pythonのscikit-learn__ などのパッケージで計算することができる。
-
 
 
 
