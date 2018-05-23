@@ -7,7 +7,7 @@
 theme : beige
 theme-override : assets/css/PITCHME.css
 # theme-override : assets/css/PITCHME.codemax.css
-logo : assets/image/logo.png
+logo : image/logo.png
 highlight : hybrid
 transition : none
 published : true
