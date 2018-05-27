@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d6f3cd1d-1dec-4fa2-aff0-8fa89d0f5acb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/PITCHME.css" afterPath="$PROJECT_DIR$/assets/css/PITCHME.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20180604_stapy/PITCHME.md" afterPath="$PROJECT_DIR$/20180604_stapy/PITCHME.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,19 +38,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PITCHME.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PITCHME.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/20180604_stapy/PITCHME.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="85">
-                <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+              <first_editor relative-caret-position="391">
+                <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
                 <folding>
-                  <marker date="1527404589000" expanded="true" signature="830:916" ph="//..." />
-                  <marker date="1527404589000" expanded="true" signature="964:1363" ph="{...}" />
-                  <marker date="1527404589000" expanded="true" signature="968:1064" ph="//..." />
-                  <marker date="1527404589000" expanded="true" signature="1097:1330" ph="{...}" />
-                  <marker date="1527404589000" expanded="true" signature="1103:1185" ph="//..." />
-                  <marker date="1527404589000" expanded="true" signature="1214:1256" ph="{&quot;Content-Type&quot;: 'text/plain'...}" />
+                  <marker date="1527425010000" expanded="true" signature="1129:1215" ph="//..." />
+                  <marker date="1527425010000" expanded="true" signature="1263:1662" ph="{...}" />
+                  <marker date="1527425010000" expanded="true" signature="1267:1363" ph="//..." />
+                  <marker date="1527425010000" expanded="true" signature="1396:1629" ph="{...}" />
+                  <marker date="1527425010000" expanded="true" signature="1402:1484" ph="//..." />
+                  <marker date="1527425010000" expanded="true" signature="1513:1555" ph="{&quot;Content-Type&quot;: 'text/plain'...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -61,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PITCHME.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PITCHME.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/PITCHME.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="88" column="17" lean-forward="false" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
+            <state relative-caret-position="119">
+              <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -81,8 +81,8 @@
       <list>
         <option value="$PROJECT_DIR$/20180604_stapy/assets/css/PITCHME.css" />
         <option value="$PROJECT_DIR$/20180604_stapy/PITCHME.yaml" />
-        <option value="$PROJECT_DIR$/20180604_stapy/PITCHME.md" />
         <option value="$PROJECT_DIR$/assets/css/PITCHME.css" />
+        <option value="$PROJECT_DIR$/20180604_stapy/PITCHME.md" />
       </list>
     </option>
   </component>
@@ -93,10 +93,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="147" />
-    <option name="y" value="88" />
-    <option name="width" value="1676" />
-    <option name="height" value="1077" />
+    <option name="x" value="775" />
+    <option name="y" value="50" />
+    <option name="width" value="1552" />
+    <option name="height" value="1215" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -414,16 +414,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527401609427</updated>
-      <workItem from="1527401610930" duration="2630000" />
+      <workItem from="1527401610930" duration="4324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2630000" />
+    <option name="totallyTimeSpent" value="4324000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="147" y="88" width="1676" height="1077" extended-state="0" />
-    <editor active="false" />
+    <frame x="775" y="50" width="1552" height="1215" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="GfmBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -432,10 +432,10 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3469591" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30499563" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09853121" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10662252" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -501,27 +501,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/20180604_stapy/PITCHME.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="85">
-            <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-            <folding>
-              <marker date="1527404589000" expanded="true" signature="830:916" ph="//..." />
-              <marker date="1527404589000" expanded="true" signature="964:1363" ph="{...}" />
-              <marker date="1527404589000" expanded="true" signature="968:1064" ph="//..." />
-              <marker date="1527404589000" expanded="true" signature="1097:1330" ph="{...}" />
-              <marker date="1527404589000" expanded="true" signature="1103:1185" ph="//..." />
-              <marker date="1527404589000" expanded="true" signature="1214:1256" ph="{&quot;Content-Type&quot;: 'text/plain'...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="Gfm">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/20180604_stapy/PITCHME.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -532,10 +511,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/PITCHME.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="88" column="17" lean-forward="false" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
+        <state relative-caret-position="119">
+          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20180604_stapy/PITCHME.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="391">
+            <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            <folding>
+              <marker date="1527425010000" expanded="true" signature="1129:1215" ph="//..." />
+              <marker date="1527425010000" expanded="true" signature="1263:1662" ph="{...}" />
+              <marker date="1527425010000" expanded="true" signature="1267:1363" ph="//..." />
+              <marker date="1527425010000" expanded="true" signature="1396:1629" ph="{...}" />
+              <marker date="1527425010000" expanded="true" signature="1402:1484" ph="//..." />
+              <marker date="1527425010000" expanded="true" signature="1513:1555" ph="{&quot;Content-Type&quot;: 'text/plain'...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="Gfm">
+        <state />
       </provider>
     </entry>
   </component>
