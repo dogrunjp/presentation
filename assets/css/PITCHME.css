@@ -82,10 +82,14 @@ html:-moz-full-screen-ancestor {
 /* add */
 
 .reveal h1 {
-    font-size: 3rem;
+    font-size: 1.5em;
     line-height: 1.5;
 }
 
 .reveal h2 {
-    font-size: 2.5rem;
+    font-size: 1.25rem;
+}
+
+.reveal h3 {
+    font-size:1.25em
 }
