@@ -7,7 +7,7 @@
 theme : black
 theme-override : assets/css/PITCHME.css
 logo : images/logo.png
-background : assets/image/constellation.svg
+background : images/constellation.svg
 background-size : cover
 highlight : atom-one-light
 transition : none
