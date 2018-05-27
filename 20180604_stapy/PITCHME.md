@@ -1,7 +1,9 @@
 @title[Introduction]
-# Constellation
+# PYTHONとJAVASCRIPTによる生命科学データ解析における可視化サービスの構築
 
-### A GitPitch Presentation Template
+2018/06/04 みんなのPython勉強会#36
+
+大石直哉 @oec14
 
 ---
 
