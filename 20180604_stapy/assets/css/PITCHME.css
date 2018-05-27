@@ -75,3 +75,8 @@
 
 .gp-download { margin-left: 10px; }
 
+/*　追加　*/
+
+.reveal h1{
+    font-size: 1rem;
+}
