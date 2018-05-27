@@ -13,14 +13,14 @@
 .reveal pre code {
   font-size: 1.2em;
   line-height: 1.2;
-  max-height: 50vh !important;
+  max-height: 60vh !important;
   opacity: 0.95;
   border-radius: 10px;
 }
 
 .reveal .slides section .code-presenting-annotation {
-  color: white;
-  background: #b5ad86;
+  color: #2d0630;
+  background: white;
   padding: 1px 15px;
   border-radius: 15px;
   opacity: 0.75 !important;
@@ -28,10 +28,12 @@
 }
 
 .reveal p span.slide-title {
-  color: black;
+  color: white;
+  background: #2d0630;
   padding: 4px 15px;
   opacity: 0.75 !important;
   border-radius: 15px;
+  display: none;
 }
 
 .reveal div.left {
@@ -48,6 +50,14 @@
 
 .reveal a.pro-link {
     font-size: 0.5em;
+}
+
+.reveal a {
+    # color: #af5a08 !important;
+}
+
+.reveal a:hover {
+    # color: #e27b1f !important;
 }
 
 #gp-logo img {

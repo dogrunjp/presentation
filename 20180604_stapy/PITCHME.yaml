@@ -4,11 +4,12 @@
 # For details, visit Wiki:
 # https://github.com/gitpitch/gitpitch/wiki/Slideshow-Settings
 #
-theme : beige
+theme : black
 theme-override : assets/css/PITCHME.css
-# theme-override : assets/css/PITCHME.codemax.css
 logo : images/logo.png
-highlight : hybrid
+background : assets/image/constellation.svg
+background-size : cover
+highlight : atom-one-light
 transition : none
 published : true
 footnote : "© 2018 dogrunjp, licened under Creative Commons Attribution 4.0 (CC-BY -4.0)"
