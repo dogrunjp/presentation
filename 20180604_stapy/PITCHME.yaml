@@ -6,10 +6,10 @@
 #
 theme : black
 theme-override : assets/css/PITCHME.css
-logo : assets/image/logo.png
+logo : images/logo.png
 background : assets/image/constellation.svg
 background-size : cover
 highlight : atom-one-light
 transition : none
 published : true
-footnote : "GitPitch Pro [ Constellation ] Presentation Template"
+footnote : "@ 2018 dogrun.jp, licened under a Creative Commons Attribution 4.0 (CC-BY-4.0)"
