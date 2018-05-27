@@ -1,5 +1,5 @@
 @title[Introduction]
-# PYTHONとJAVASCRIPTによる生命科学データ解析における可視化サービスの構築
+# PYTHONとJAVASCRIPTによる<br>生命科学データ解析における<br>可視化サービスの構築
 
 ## 2018/06/04 みんなのPython勉強会#36
 
