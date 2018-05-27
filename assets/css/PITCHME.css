@@ -79,3 +79,12 @@ html:-moz-full-screen-ancestor {
 
 .gp-download { margin-left: 10px; }
 
+/* add */
+
+.reveal h1 {
+    font-size: 2rem;
+}
+
+.reveal h2 {
+    font-size: 1.75rem;
+}
