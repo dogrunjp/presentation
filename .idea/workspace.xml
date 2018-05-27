@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d6f3cd1d-1dec-4fa2-aff0-8fa89d0f5acb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20180604_stapy/PITCHME.md" afterPath="$PROJECT_DIR$/20180604_stapy/PITCHME.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,15 +42,15 @@
         <entry file="file://$PROJECT_DIR$/20180604_stapy/PITCHME.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="340">
-                <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+              <first_editor relative-caret-position="408">
+                <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
                 <folding>
-                  <marker date="1527425620000" expanded="true" signature="1191:1277" ph="//..." />
-                  <marker date="1527425620000" expanded="true" signature="1325:1724" ph="{...}" />
-                  <marker date="1527425620000" expanded="true" signature="1329:1425" ph="//..." />
-                  <marker date="1527425620000" expanded="true" signature="1458:1691" ph="{...}" />
-                  <marker date="1527425620000" expanded="true" signature="1464:1546" ph="//..." />
-                  <marker date="1527425620000" expanded="true" signature="1575:1617" ph="{&quot;Content-Type&quot;: 'text/plain'...}" />
+                  <marker date="1527430162000" expanded="true" signature="1267:1353" ph="//..." />
+                  <marker date="1527430162000" expanded="true" signature="1401:1800" ph="{...}" />
+                  <marker date="1527430162000" expanded="true" signature="1405:1501" ph="//..." />
+                  <marker date="1527430162000" expanded="true" signature="1534:1767" ph="{...}" />
+                  <marker date="1527430162000" expanded="true" signature="1540:1622" ph="//..." />
+                  <marker date="1527430162000" expanded="true" signature="1651:1693" ph="{&quot;Content-Type&quot;: 'text/plain'...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -92,10 +93,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="775" />
-    <option name="y" value="50" />
-    <option name="width" value="1552" />
-    <option name="height" value="1215" />
+    <option name="x" value="1008" />
+    <option name="y" value="49" />
+    <option name="width" value="1406" />
+    <option name="height" value="1211" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -441,16 +442,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527401609427</updated>
-      <workItem from="1527401610930" duration="5962000" />
+      <workItem from="1527401610930" duration="6712000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5962000" />
+    <option name="totallyTimeSpent" value="6712000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="775" y="50" width="1552" height="1215" extended-state="0" />
-    <editor active="false" />
+    <frame x="1008" y="49" width="1406" height="1211" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="GfmBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -459,10 +460,10 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30499563" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3060686" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10662252" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11803519" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -561,15 +562,15 @@
     <entry file="file://$PROJECT_DIR$/20180604_stapy/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="340">
-            <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <first_editor relative-caret-position="408">
+            <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
             <folding>
-              <marker date="1527425620000" expanded="true" signature="1191:1277" ph="//..." />
-              <marker date="1527425620000" expanded="true" signature="1325:1724" ph="{...}" />
-              <marker date="1527425620000" expanded="true" signature="1329:1425" ph="//..." />
-              <marker date="1527425620000" expanded="true" signature="1458:1691" ph="{...}" />
-              <marker date="1527425620000" expanded="true" signature="1464:1546" ph="//..." />
-              <marker date="1527425620000" expanded="true" signature="1575:1617" ph="{&quot;Content-Type&quot;: 'text/plain'...}" />
+              <marker date="1527430162000" expanded="true" signature="1267:1353" ph="//..." />
+              <marker date="1527430162000" expanded="true" signature="1401:1800" ph="{...}" />
+              <marker date="1527430162000" expanded="true" signature="1405:1501" ph="//..." />
+              <marker date="1527430162000" expanded="true" signature="1534:1767" ph="{...}" />
+              <marker date="1527430162000" expanded="true" signature="1540:1622" ph="//..." />
+              <marker date="1527430162000" expanded="true" signature="1651:1693" ph="{&quot;Content-Type&quot;: 'text/plain'...}" />
             </folding>
           </first_editor>
           <second_editor />
