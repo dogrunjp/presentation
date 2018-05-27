@@ -43,14 +43,14 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="595">
-                <caret line="35" column="4" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+                <caret line="43" column="27" lean-forward="false" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
                 <folding>
-                  <marker date="1527430162000" expanded="true" signature="1267:1353" ph="//..." />
-                  <marker date="1527430162000" expanded="true" signature="1401:1800" ph="{...}" />
-                  <marker date="1527430162000" expanded="true" signature="1405:1501" ph="//..." />
-                  <marker date="1527430162000" expanded="true" signature="1534:1767" ph="{...}" />
-                  <marker date="1527430162000" expanded="true" signature="1540:1622" ph="//..." />
-                  <marker date="1527430162000" expanded="true" signature="1651:1693" ph="{&quot;Content-Type&quot;: 'text/plain'...}" />
+                  <marker date="1527431170000" expanded="true" signature="1398:1484" ph="//..." />
+                  <marker date="1527431170000" expanded="true" signature="1532:1931" ph="{...}" />
+                  <marker date="1527431170000" expanded="true" signature="1536:1632" ph="//..." />
+                  <marker date="1527431170000" expanded="true" signature="1665:1898" ph="{...}" />
+                  <marker date="1527431170000" expanded="true" signature="1671:1753" ph="//..." />
+                  <marker date="1527431170000" expanded="true" signature="1782:1824" ph="{&quot;Content-Type&quot;: 'text/plain'...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -64,8 +64,8 @@
       <file leaf-file-name="PITCHME.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/PITCHME.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+            <state relative-caret-position="442">
+              <caret line="67" column="20" lean-forward="true" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -442,16 +442,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527401609427</updated>
-      <workItem from="1527401610930" duration="6763000" />
+      <workItem from="1527401610930" duration="7640000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6763000" />
+    <option name="totallyTimeSpent" value="7640000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1008" y="49" width="1406" height="1211" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="GfmBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -460,7 +460,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3060686" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3060686" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11803519" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -529,22 +529,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/20180604_stapy/PITCHME.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/PITCHME.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/20171216_drbonobon_4/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -559,18 +543,34 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/PITCHME.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="67" column="20" lean-forward="true" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20180604_stapy/PITCHME.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/20180604_stapy/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="595">
-            <caret line="35" column="4" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+            <caret line="43" column="27" lean-forward="false" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
             <folding>
-              <marker date="1527430162000" expanded="true" signature="1267:1353" ph="//..." />
-              <marker date="1527430162000" expanded="true" signature="1401:1800" ph="{...}" />
-              <marker date="1527430162000" expanded="true" signature="1405:1501" ph="//..." />
-              <marker date="1527430162000" expanded="true" signature="1534:1767" ph="{...}" />
-              <marker date="1527430162000" expanded="true" signature="1540:1622" ph="//..." />
-              <marker date="1527430162000" expanded="true" signature="1651:1693" ph="{&quot;Content-Type&quot;: 'text/plain'...}" />
+              <marker date="1527431170000" expanded="true" signature="1398:1484" ph="//..." />
+              <marker date="1527431170000" expanded="true" signature="1532:1931" ph="{...}" />
+              <marker date="1527431170000" expanded="true" signature="1536:1632" ph="//..." />
+              <marker date="1527431170000" expanded="true" signature="1665:1898" ph="{...}" />
+              <marker date="1527431170000" expanded="true" signature="1671:1753" ph="//..." />
+              <marker date="1527431170000" expanded="true" signature="1782:1824" ph="{&quot;Content-Type&quot;: 'text/plain'...}" />
             </folding>
           </first_editor>
           <second_editor />
