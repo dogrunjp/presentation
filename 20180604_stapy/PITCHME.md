@@ -18,6 +18,7 @@
 ---
 ## Webアプリケーションの構成 - AOEの場合
 
+![Webアプリケーションの構成](images/stapy-fig-1.png)
 
 
 ---
