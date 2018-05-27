@@ -83,6 +83,7 @@ html:-moz-full-screen-ancestor {
 
 .reveal h1 {
     font-size: 3rem;
+    line-height: 1.5;
 }
 
 .reveal h2 {
