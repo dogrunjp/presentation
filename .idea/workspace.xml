@@ -42,16 +42,9 @@
         <entry file="file://$PROJECT_DIR$/20180604_stapy/PITCHME.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="595">
-                <caret line="43" column="27" lean-forward="false" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
-                <folding>
-                  <marker date="1527431170000" expanded="true" signature="1398:1484" ph="//..." />
-                  <marker date="1527431170000" expanded="true" signature="1532:1931" ph="{...}" />
-                  <marker date="1527431170000" expanded="true" signature="1536:1632" ph="//..." />
-                  <marker date="1527431170000" expanded="true" signature="1665:1898" ph="{...}" />
-                  <marker date="1527431170000" expanded="true" signature="1671:1753" ph="//..." />
-                  <marker date="1527431170000" expanded="true" signature="1782:1824" ph="{&quot;Content-Type&quot;: 'text/plain'...}" />
-                </folding>
+              <first_editor relative-caret-position="612">
+                <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+                <folding />
               </first_editor>
               <second_editor />
             </state>
@@ -442,16 +435,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527401609427</updated>
-      <workItem from="1527401610930" duration="7640000" />
+      <workItem from="1527401610930" duration="7978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7640000" />
+    <option name="totallyTimeSpent" value="7978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1008" y="49" width="1406" height="1211" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="GfmBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -460,7 +453,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3060686" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3060686" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11803519" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -562,16 +555,9 @@
     <entry file="file://$PROJECT_DIR$/20180604_stapy/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="595">
-            <caret line="43" column="27" lean-forward="false" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
-            <folding>
-              <marker date="1527431170000" expanded="true" signature="1398:1484" ph="//..." />
-              <marker date="1527431170000" expanded="true" signature="1532:1931" ph="{...}" />
-              <marker date="1527431170000" expanded="true" signature="1536:1632" ph="//..." />
-              <marker date="1527431170000" expanded="true" signature="1665:1898" ph="{...}" />
-              <marker date="1527431170000" expanded="true" signature="1671:1753" ph="//..." />
-              <marker date="1527431170000" expanded="true" signature="1782:1824" ph="{&quot;Content-Type&quot;: 'text/plain'...}" />
-            </folding>
+          <first_editor relative-caret-position="612">
+            <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
