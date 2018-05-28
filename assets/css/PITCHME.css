@@ -82,20 +82,20 @@ html:-moz-full-screen-ancestor {
 /* add */
 
 .reveal h1 {
-    font-family: "Myriad Pro", "Noto Sans CJK JP", Impact, sans-serif;
+    font-family: "Helvetica Neue", "Noto Sans CJK JP", Impact, sans-serif;
     font-weight: bolder;
     font-size: 1.5em;
     line-height: 1.5;
 }
 
 .reveal h2 {
-    font-family: "Myriad Pro", "Noto Sans CJK JP", Impact, sans-serif;
+    font-family: "Helvetica Neue", "Noto Sans CJK JP", Impact, sans-serif;
     font-weight: bold;
     font-size: 1.25em;
 }
 
 .reveal h3 {
-    font-family: "Myriad Pro", "Noto Sans CJK JP", Impact, sans-serif;
+    font-family: "Helvetica Neue", "Noto Sans CJK JP", Impact, sans-serif;
     font-weight: bold;
     font-size:1.15em
 }
