@@ -42,8 +42,8 @@
         <entry file="file://$PROJECT_DIR$/20180604_stapy/PITCHME.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="751">
-                <caret line="73" column="2" lean-forward="false" selection-start-line="73" selection-start-column="2" selection-end-line="73" selection-end-column="2" />
+              <first_editor relative-caret-position="459">
+                <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="33" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -86,8 +86,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="155" />
-    <option name="y" value="34" />
+    <option name="x" value="216" />
+    <option name="y" value="23" />
     <option name="width" value="1603" />
     <option name="height" value="1379" />
   </component>
@@ -438,15 +438,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527401609427</updated>
-      <workItem from="1527401610930" duration="19563000" />
+      <workItem from="1527401610930" duration="20382000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19563000" />
+    <option name="totallyTimeSpent" value="20382000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="155" y="34" width="1603" height="1379" extended-state="0" />
+    <frame x="216" y="23" width="1603" height="1379" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="GfmBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -558,8 +558,8 @@
     <entry file="file://$PROJECT_DIR$/20180604_stapy/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="751">
-            <caret line="73" column="2" lean-forward="false" selection-start-line="73" selection-start-column="2" selection-end-line="73" selection-end-column="2" />
+          <first_editor relative-caret-position="459">
+            <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="33" />
             <folding />
           </first_editor>
           <second_editor />
