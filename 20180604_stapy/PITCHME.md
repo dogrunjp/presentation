@@ -26,7 +26,7 @@
 ---
 ## 探索的データ可視化の実例紹介
 
-#### ![AOEのキャプチャー](images/stapy-fig-2.png)
+#### ![AOEのキャプチャー](https://github.com/dogrunjp/presentation/blob/master/images/stapy-fig-2.png)
 
 #### [AOE http://aoe.dbcls.jp](http://aoe.dbcls.jp)
 
