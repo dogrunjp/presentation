@@ -45,8 +45,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-34">
-                <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <first_editor relative-caret-position="476">
+                <caret line="28" column="94" lean-forward="false" selection-start-line="28" selection-start-column="94" selection-end-line="28" selection-end-column="94" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -451,12 +451,12 @@
       <option name="presentableId" value="Default" />
       <updated>1527401609427</updated>
       <workItem from="1527401610930" duration="22343000" />
-      <workItem from="1527904526218" duration="5934000" />
+      <workItem from="1527904526218" duration="6150000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28277000" />
+    <option name="totallyTimeSpent" value="28493000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="34" y="42" width="1488" height="1373" extended-state="0" />
@@ -603,8 +603,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-34">
-            <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <first_editor relative-caret-position="476">
+            <caret line="28" column="94" lean-forward="false" selection-start-line="28" selection-start-column="94" selection-end-line="28" selection-end-column="94" />
             <folding />
           </first_editor>
           <second_editor />
