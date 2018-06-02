@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6f3cd1d-1dec-4fa2-aff0-8fa89d0f5acb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20180604_stapy/PITCHME.md" afterPath="$PROJECT_DIR$/20180604_stapy/PITCHME.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,8 +44,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="527">
-                <caret line="45" column="47" lean-forward="false" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+              <first_editor relative-caret-position="745">
+                <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -92,8 +91,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="34" />
-    <option name="y" value="42" />
+    <option name="x" value="135" />
+    <option name="y" value="109" />
     <option name="width" value="1851" />
     <option name="height" value="1373" />
   </component>
@@ -451,15 +450,15 @@
       <option name="presentableId" value="Default" />
       <updated>1527401609427</updated>
       <workItem from="1527401610930" duration="22343000" />
-      <workItem from="1527904526218" duration="6867000" />
+      <workItem from="1527904526218" duration="7442000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29210000" />
+    <option name="totallyTimeSpent" value="29785000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="34" y="42" width="1851" height="1373" extended-state="0" />
+    <frame x="135" y="109" width="1851" height="1373" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="GfmBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -603,8 +602,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="527">
-            <caret line="45" column="47" lean-forward="false" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+          <first_editor relative-caret-position="745">
+            <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
