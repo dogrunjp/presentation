@@ -102,4 +102,5 @@ html:-moz-full-screen-ancestor {
 
 .reveal p {
     line-height: 1.5;
+    text-align: left;
 }
