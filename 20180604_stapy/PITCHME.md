@@ -50,7 +50,7 @@
 ---
 ## Webアプリケーションとしての<br>AOEの構成
 
-![Webアプリケーションの構成](images/stapy-fig-1.png)
+#### ![Webアプリケーションの構成](https://github.com/dogrunjp/presentation/blob/master/images/stapy-fig-1.png?raw=true)
 
 
 ---
