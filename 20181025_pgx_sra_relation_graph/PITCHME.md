@@ -40,7 +40,7 @@
 
 ---
 
-<center><img src="https://github.com/dogrunjp/presentation/blob/master/images/sra_kankei_networkx_sample.png?raw=true" width=200></center>
+<center><img src="https://github.com/dogrunjp/presentation/blob/master/images/sra_kankei_networkx_sample.png?raw=true" width=300></center>
 
 できればtreeなレイアウトにしたい
 ---
