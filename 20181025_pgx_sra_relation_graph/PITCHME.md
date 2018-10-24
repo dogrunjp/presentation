@@ -40,7 +40,7 @@
 
 ---
 
-![networkxとmatplotlibでプロット](https://github.com/dogrunjp/presentation/blob/master/images/sra_kankei_networkx_sample.png)
+<img src="https://github.com/dogrunjp/presentation/blob/master/images/sra_kankei_networkx_sample.png?raw=true" width="640px">
 
 できればtreeなレイアウトにしたい
 ---

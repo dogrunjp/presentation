@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6f3cd1d-1dec-4fa2-aff0-8fa89d0f5acb" name="Default" comment="" />
+    <list default="true" id="d6f3cd1d-1dec-4fa2-aff0-8fa89d0f5acb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20181025_pgx_sra_relation_graph/PITCHME.md" afterPath="$PROJECT_DIR$/20181025_pgx_sra_relation_graph/PITCHME.md" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +32,8 @@
         <entry file="file://$PROJECT_DIR$/20181025_pgx_sra_relation_graph/PITCHME.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="731">
-                <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <first_editor relative-caret-position="714">
+                <caret line="42" column="127" lean-forward="false" selection-start-line="42" selection-start-column="127" selection-end-line="42" selection-end-column="127" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -96,8 +99,8 @@
         <option value="$PROJECT_DIR$/assets/css/PITCHME.css" />
         <option value="$PROJECT_DIR$/20180604_stapy/PITCHME.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/20181025_pgx_sra_relation_graph/PITCHME.md" />
         <option value="$PROJECT_DIR$/memo/memo.md" />
+        <option value="$PROJECT_DIR$/20181025_pgx_sra_relation_graph/PITCHME.md" />
       </list>
     </option>
   </component>
@@ -470,12 +473,12 @@
       <workItem from="1527401610930" duration="22343000" />
       <workItem from="1527904526218" duration="7844000" />
       <workItem from="1535941782583" duration="16000" />
-      <workItem from="1540356010174" duration="5649000" />
+      <workItem from="1540356010174" duration="5744000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35852000" />
+    <option name="totallyTimeSpent" value="35947000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="258" y="67" width="2039" height="1373" extended-state="0" />
@@ -735,8 +738,8 @@
     <entry file="file://$PROJECT_DIR$/20181025_pgx_sra_relation_graph/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="731">
-            <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <first_editor relative-caret-position="714">
+            <caret line="42" column="127" lean-forward="false" selection-start-line="42" selection-start-column="127" selection-end-line="42" selection-end-column="127" />
             <folding />
           </first_editor>
           <second_editor />
