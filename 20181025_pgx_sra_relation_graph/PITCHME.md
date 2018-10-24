@@ -21,34 +21,34 @@
 ---
 ## SRAオブジェクトのデータモデル
 
-<center><img src="https://github.com/dogrunjp/presentation/blob/master/images/sra_object.png?raw=true" width=350></center>
+<center><img src="https://github.com/dogrunjp/presentation/blob/master/images/sra_object.png?raw=true" width=400></center>
 [DDBJ Sequence Read Archive Handbook: https://www.ddbj.nig.ac.jp/dra/submission.html](https://www.ddbj.nig.ac.jp/dra/submission.html)
 
 ---
-### 一つのプロジェクトを構成するオブジェクトの全体のイメージが掴みにくい？？かも
+### 一つのプロジェクトを構成するオブジェクトの全体のイメージが掴みにくい？？
 
-自動的に先ほどの構成図のような何かが自動的に出力されると便利かも。
+
+#### 自動的に先ほどの構成図のような何かが自動的に出力されると便利かも。
 
 ---
 ## SRAオブジェクトの構成図をグラフとして可視化してみた
 
-1. NewworkXのDiGraph()でグラフを生成する
 1. SRA_Accessionsからあるプロジェクトに関わるオブジェクトを検索し、node, edgeに変換して読み込む
-1. （本当はここで正しいグラフデータ検索することが一番重要かも）
+1. （ここで正しいグラフデータを生成することが一番重要かも）
 1. NetworkXでdraw_networkx()する
 1. matplotlibで描いてみる
 
 ---
 
-<center><img src="https://github.com/dogrunjp/presentation/blob/master/images/sra_kankei_networkx_sample.png?raw=true" width=300></center>
+<center><img src="https://github.com/dogrunjp/presentation/blob/master/images/sra_kankei_networkx_sample.png?raw=true" width=400></center>
 
 ### できればtreeなレイアウトにしたい
 
 ---
 ## NetworkXのグラフをPyGraphvizに変換してグラフを描いてみた
 
-- Gv = nx.nx_agraph.to_agraph(Gx) でPyGraphvizのグラフに変換できる。
-- dotレイアウトで階層的にグラフをレイアウトするらしい。
+1. Gv = nx.nx_agraph.to_agraph(Gx) でPyGraphvizのグラフに変換できる。
+1. dotレイアウトを指定すると階層的にグラフをレイアウトするらしい。
 
 ---
 ![PyGraphvizでプロット](https://github.com/dogrunjp/presentation/blob/master/images/sra_kankei_sample_gv_dot.png?raw=true)

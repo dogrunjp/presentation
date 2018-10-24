@@ -32,8 +32,8 @@
         <entry file="file://$PROJECT_DIR$/20181025_pgx_sra_relation_graph/PITCHME.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="867">
-                <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+              <first_editor relative-caret-position="745">
+                <caret line="44" column="3" lean-forward="false" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -473,12 +473,12 @@
       <workItem from="1527401610930" duration="22343000" />
       <workItem from="1527904526218" duration="7844000" />
       <workItem from="1535941782583" duration="16000" />
-      <workItem from="1540356010174" duration="6443000" />
+      <workItem from="1540356010174" duration="6652000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36646000" />
+    <option name="totallyTimeSpent" value="36855000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="258" y="67" width="2039" height="1373" extended-state="0" />
@@ -738,8 +738,8 @@
     <entry file="file://$PROJECT_DIR$/20181025_pgx_sra_relation_graph/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="867">
-            <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <first_editor relative-caret-position="745">
+            <caret line="44" column="3" lean-forward="false" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
             <folding />
           </first_editor>
           <second_editor />
