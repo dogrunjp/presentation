@@ -1,5 +1,5 @@
 @title[Introduction]
-# Jupyter notebookとNetworkX, PyGraphvizでSRAオブジェクトの構成図を自動的に描画する
+# NetworkX, PyGraphvizでSRAオブジェクトの構成図を自動的に描画する
 
 ### 2018/10/25 PGX ユーザー勉強会 #10
 
