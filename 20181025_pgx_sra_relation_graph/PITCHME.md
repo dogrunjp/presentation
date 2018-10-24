@@ -21,7 +21,7 @@
 ---
 ## SRAオブジェクトのデータモデル
 
-#### ![データモデル](https://github.com/dogrunjp/presentation/blob/master/images/sra_object.png?raw=true)
+<center><img src="https://github.com/dogrunjp/presentation/blob/master/images/sra_object.png?raw=true" width=350></center>
 [DDBJ Sequence Read Archive Handbook: https://www.ddbj.nig.ac.jp/dra/submission.html](https://www.ddbj.nig.ac.jp/dra/submission.html)
 
 ---
@@ -42,12 +42,14 @@
 
 <center><img src="https://github.com/dogrunjp/presentation/blob/master/images/sra_kankei_networkx_sample.png?raw=true" width=300></center>
 
-できればtreeなレイアウトにしたい
+### できればtreeなレイアウトにしたい
+
 ---
 ## NetworkXのグラフをPyGraphvizに変換してグラフを描いてみた
 
 - Gv = nx.nx_agraph.to_agraph(Gx) でPyGraphvizのグラフに変換できる。
 - dotレイアウトで階層的にグラフをレイアウトするらしい。
+
 ---
 ![PyGraphvizでプロット](https://github.com/dogrunjp/presentation/blob/master/images/sra_kankei_sample_gv_dot.png?raw=true)
 
