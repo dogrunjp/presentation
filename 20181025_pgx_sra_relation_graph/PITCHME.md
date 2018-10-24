@@ -10,11 +10,9 @@
 ---
 ## SRAとは
 
-- DRAは次世代シーケンサーからの出力データのためのデータベースです！
-- DRAに登録されたデータは（基本的に）NCBI SRAとEBI ERAと国際協力の元に3極でミラーリングされている。
+- DRAは次世代シーケンサーからの出力データのためのデータベース。
 - SRAのメタデータには、シークエンスデータがどのように得られたか記載されている。
-- メタデータは、Submission、BioProject、BioSample、Experiment、Run、Analysisの各オブジェクトで構成されている。
-- 各オブジェクトはXMLスキーマで定義され、相互に関連づけられる。
+- メタデータは、Submission、BioProject、BioSample、Experiment、Run、Analysisの各オブジェクトで構成され、各オブジェクトは相互に関連づけられる。
 
 [DDBJ Sequence Read Archive Handbook: https://www.ddbj.nig.ac.jp/dra/submission.html](https://www.ddbj.nig.ac.jp/dra/submission.html)
 
