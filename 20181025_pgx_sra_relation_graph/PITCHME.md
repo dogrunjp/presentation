@@ -51,3 +51,5 @@
 ---
 ![PyGraphvizでプロット](https://github.com/dogrunjp/presentation/blob/master/images/sra_kankei_sample_gv_dot.png?raw=true)
 
+---
+グラフとして捉えられるデータが適切にレイアウトされて可視化されるような、もう少しリッチなラッパがあると良いかもしれませんね。
