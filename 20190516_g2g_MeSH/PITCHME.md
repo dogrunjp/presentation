@@ -123,7 +123,7 @@ D014771 has_code A21.249
 マージしたグラフをNeo4Jに読み込むと、パスクエリを利用して面白い検索ができる。
 
 例えば、あるMeSH Tree Numberに直接だけではなく、
-その子階層で関係するMeSH UIをパスクエリで検索することができる。
+その子階層で関係するMeSH UIをパスクエリで検索することができる
 
 ```sql
 MATCH p=(u1)-[:has_code]->(c1)-[:parentTreeNumber*0..]->(:Code {Id:"A08.186.211.180"})
@@ -134,4 +134,4 @@ RETURN p
 
 <center><img src="https://github.com/dogrunjp/presentation/blob/master/images/mesh_neo4j_path_query_sample.png?raw=true" width=500></center>
 
-
+**A08.186.211.180の子階層以下のTreeも含めて関連するMeSH descriptorを検索**
