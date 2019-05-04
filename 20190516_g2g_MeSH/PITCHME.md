@@ -1,5 +1,5 @@
 @title[Introduction]
-# G2GMLを利用したMeSH RDFのプロパティグラフへの変換
+## G2GMLを利用したMeSH RDFのプロパティグラフへの変換
 
 ### 2019/5/16 PGX ユーザー勉強会 #12
 
