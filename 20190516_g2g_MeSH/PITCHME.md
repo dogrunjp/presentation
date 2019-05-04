@@ -48,8 +48,11 @@ G2GMapperは、
 G2G Mapperは、
 aliasをdockerコンテナに設定して利用。
 
+```bash
+$ alias g2g='docker run --rm -v $PWD:/work g2gml/g2g:x.x.x g2g'
+```
 
-> $ alias g2g='docker run --rm -v $PWD:/work g2gml/g2g:x.x.x g2g'
+
 
 
 ---
@@ -75,9 +78,9 @@ PREFIX meshv: <http://id.nlm.nih.gov/mesh/vocab#>
 ローカルのvirtuosoのエンドポイントから変換を実行する場合下記のようにg2gを呼ぶ。
 G2GMLが記述されたファイル名をmesh.g2gした場合‥
 
-
-> g2g mesh.g2g http://localhost:8890/sparql?default-graph-uri=http%3A%2F%2Flocalhost%3A8890%2FDAV
-
+```bash
+g2g mesh.g2g http://localhost:8890/sparql?default-graph-uri=http%3A%2F%2Flocalhost%3A8890%2FDAV
+```
 
 
 ---
@@ -86,8 +89,9 @@ G2GMLが記述されたファイル名をmesh.g2gした場合‥
 g2gによって、例えば下のようなプロパティグラフが出力される。
 
 **例**
-> A21.249   A21   :parentTreeNumber
-
+```bash
+A21.249   A21   :parentTreeNumber
+```
 
 ※実際は前出のg2gでは、URIとしてノードは出力される。
 
@@ -102,18 +106,23 @@ asciiフォーマットのMeSHファイル（d2019.bin）に含まれるMeSH Tre
 ---
 
 **例**
-> D014771 has_code A21.249
+```bash
+D014771 has_code A21.249
+```
 
 ※ファイルから抽出したこのエッジは、プロパティ"has_code"とした
 
 ※RDFにTreeとUIの関係が含まれていれば利用するのだが見つからなかった
 
 ---
-## Cytoscapeに読み込みTree構造のグラフととMeSH-Treeをマージ
+## Cytoscapeに読み込みTree構造のグラフとMeSH-Treeをマージ
 
 <center><img src="https://github.com/dogrunjp/presentation/blob/master/images/mesh_descriptor_and_tree_network.png?raw=true" width=400></center>
 
 
-
 ---
 ## Neo4jに読み込んでプロパティパス検索
+
+マージしたグラフをNeo4Jに読み込むと、パスクエリで面白い検索ができる。
+
+
