@@ -61,7 +61,7 @@ $ alias g2g='docker run --rm -v $PWD:/work g2gml/g2g:x.x.x g2g'
 TreeNumberが :parentTreeNumber の関係でカテゴリを示す接頭語==Aのトリプルをグラフとして取得する場合、
 G2GMLは‥
 
-```sparql
+```bash
 PREFIX meshv: <http://id.nlm.nih.gov/mesh/vocab#>
 
 (m:TreeNumber)
@@ -115,13 +115,13 @@ D014771 has_code A21.249
 ※RDFにTreeとUIの関係が含まれていれば利用するのだが見つからなかった
 
 ---
-## Cytoscapeに読み込みTree構造のグラフとMeSH-Treeをマージ
+### Cytoscapeに読み込みTree構造のグラフとMeSH-Treeをマージ
 
 <center><img src="https://github.com/dogrunjp/presentation/blob/master/images/mesh_descriptor_and_tree_network.png?raw=true" width=400></center>
 
 
 ---
-## Neo4jに読み込んでプロパティパス検索
+### Neo4jに読み込んでプロパティパス検索
 
 マージしたグラフをNeo4Jに読み込むと、パスクエリで面白い検索ができる。
 
