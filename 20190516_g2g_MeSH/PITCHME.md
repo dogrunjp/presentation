@@ -24,7 +24,8 @@ PUBmedなどNLMの生物医学系データベースをインデックスする�
 ---
 
 このMeSH DescriptorとTreeのデータから
-[G2G](https://g2gml.readthedocs.io/en/latest/contents/g2gml.html)を使いグラフを構築してみるというのが今回発表の趣旨。
+[G2G](https://g2gml.readthedocs.io/en/latest/contents/g2gml.html)を使いグラフを構築してみるというのが
+今回発表の趣旨
 
 ---
 ## MeSH RDF
