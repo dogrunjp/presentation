@@ -114,7 +114,7 @@ D014771 has_code A21.249
 - <small>※RDFにTreeとUIの関係が含まれていれば利用するのだが見つからなかった</small>
 
 ---
-### Cytoscapeに読み込みTree構造のグラフとMeSH-Treeをマージ
+### Cytoscapeに読み込みTree構造のグラフと"MeSH-Tree"のエッジをマージ
 
 <center><img src="https://github.com/dogrunjp/presentation/blob/master/images/mesh_descriptor_and_tree_network.png?raw=true" width=400></center>
 
