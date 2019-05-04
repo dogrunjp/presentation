@@ -27,9 +27,9 @@ PUBmedなどNLMの生物医学系データベースをインデックスする�
 ## MeSH RDF
 
 MeSHデータは各種フォーマットのファイル（ftp://nlmpubs.nlm.nih.gov/online/mesh/）や
-sparqlエンドポイント（https://id.nlm.nih.gov/mesh/sparql ） で提供されている
+sparqlエンドポイント で提供されている（https://id.nlm.nih.gov/mesh/sparql ）。
 
-G2GMapperは、大きい静的ファイルをパースするのに時間がかかる、オフセットオプションを設定できないなどの理由で、
+G2GMapperは、大きい静的ファイルをパースするのに時間がかかる＆オフセットオプションを設定できないなどの理由で
 ローカルのvirtuosoにftpサイトからDLしたN-Tripleファイル（mesh.nt）を読み込んで、プロパティグラフへの変換を行った。
 
 
