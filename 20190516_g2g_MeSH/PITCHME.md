@@ -99,6 +99,8 @@ MeSH TreeにはMeSH descriptorが紐づくが、このTreeとMeSH descriptorの�
 asciiフォーマットのMeSHファイル（d2019.bin）に含まれるMeSH Tree NumberとMeSH UIで
 エッジリストを書き出した。
 
+---
+
 **例**
 > D014771 has_code A21.249
 
@@ -107,15 +109,9 @@ asciiフォーマットのMeSHファイル（d2019.bin）に含まれるMeSH Tre
 ※RDFにTreeとUIの関係が含まれていれば利用するのだが見つからなかった
 
 ---
-## MeSH Treeと MeSH descriptor - Tree
-
-
-
-
-
----
 ## Cytoscapeに読み込みTree構造のグラフととMeSH-Treeをマージ
 
+<center><img src="https://github.com/dogrunjp/presentation/blob/master/images/mesh_descriptor_and_tree_network.png?raw=true" width=400></center>
 
 
 
