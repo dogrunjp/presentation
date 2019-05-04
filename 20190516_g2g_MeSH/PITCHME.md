@@ -106,11 +106,12 @@ asciiフォーマットのMeSHファイル（d2019.bin）に含まれるMeSH Tre
 ```bash
 // 例
 D014771 has_code A21.249
+
 ```
 
-<small>※ファイルから抽出したこのエッジは、プロパティ"has_code"とした</small>
 
-<small>※RDFにTreeとUIの関係が含まれていれば利用するのだが見つからなかった</small>
+- <small>※ファイルから抽出したこのエッジは、プロパティ"has_code"とした</small>
+- <small>※RDFにTreeとUIの関係が含まれていれば利用するのだが見つからなかった</small>
 
 ---
 ### Cytoscapeに読み込みTree構造のグラフとMeSH-Treeをマージ
@@ -132,7 +133,8 @@ RETURN p
 ```
 
 ---
+###  A08.186.211.180の子階層以下のTreeも含めて関連するMeSH descriptorを検索した例
 
 <center><img src="https://github.com/dogrunjp/presentation/blob/master/images/mesh_neo4j_path_query_sample.png?raw=true" width=500></center>
 
-**A08.186.211.180の子階層以下のTreeも含めて関連するMeSH descriptorを検索**
+
