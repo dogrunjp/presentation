@@ -8,7 +8,7 @@
 ---
 ## Medical Subject Headings (MeSH)とは
 
-PUBmedなどNLMの生物医学系データベースをインデックスするための階層化された用語集。
+PUBmedなどNLMの生物医学系データベースをインデックスするための階層化された用語集
 
 [Medical Subject Headings - Home](https://www.nlm.nih.gov/mesh/meshhome.html)
 
@@ -17,7 +17,7 @@ PUBmedなどNLMの生物医学系データベースをインデックスする�
 
 - MeSHは16のカテゴリに分類される
 - それぞれのカテゴリは最大13の専門性の詳細さによる階層構造を持つ
-- MeSH descriptorは少なくとも一つの（概ね複数の）tree形状に紐付
+- MeSH descriptorは少なくとも一つの（概ね複数の）tree形状に紐付く
 
 [MeSH Tree Structures](https://www.nlm.nih.gov/mesh/intro_trees.html)
 
@@ -30,7 +30,7 @@ PUBmedなどNLMの生物医学系データベースをインデックスする�
 ## MeSH RDF
 
 MeSHデータは各種フォーマットのファイル（ftp://nlmpubs.nlm.nih.gov/online/mesh/）や
-sparqlエンドポイントで提供されている（https://id.nlm.nih.gov/mesh/sparql ）。
+sparqlエンドポイントで提供されている（https://id.nlm.nih.gov/mesh/sparql ）
 
 ---
 
@@ -40,13 +40,13 @@ G2GMapperは、
 - オフセットオプションを設定できない
 
 などの理由で、今回はローカルのvirtuosoにftpサイトからDLしたN-Tripleファイル（mesh.nt）を読み込んで、
-プロパティグラフへの変換を行った。
+プロパティグラフへの変換を行った
 
 ---
 ## G2G Mapperの設定
 
-G2G Mapperは、
-aliasをdockerコンテナに設定して利用。
+G2G Mapperは
+aliasをdockerコンテナに設定して利用
 
 ```bash
 $ alias g2g='docker run --rm -v $PWD:/work g2gml/g2g:x.x.x g2g'
@@ -83,7 +83,7 @@ g2g mesh.g2g http://localhost:8890/sparql?default-graph-uri=http%3A%2F%2Flocalho
 ---
 ## MeSH Treeのグラフの出力
 
-g2gによって、例えば下のようなプロパティグラフが出力される。
+g2gによって、例えば下のようなプロパティグラフが出力される
 
 ```bash
 // 例
@@ -98,7 +98,7 @@ A21.249   A21   :parentTreeNumber
 
 MeSH TreeにはMeSH descriptorが紐づくが、このTreeとMeSH descriptorのリンクをグラフとして取得するため
 asciiフォーマットのMeSHファイル（d2019.bin）に含まれるMeSH Tree NumberとMeSH UIで
-エッジリストを書き出した。
+エッジリストを書き出した
 
 ---
 
