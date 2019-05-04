@@ -36,19 +36,53 @@ G2GMapperは、大きい静的ファイルをパースするのに時間がか�
 ---
 ## G2G Mapperの設定
 
-G2G Mapperは、aliasをdockerコンテナに設定して利用する
+G2G Mapperは、
+aliasをdockerコンテナに設定して利用。
 
 ```
 $ alias g2g='docker run --rm -v $PWD:/work g2gml/g2g:x.x.x g2g'
 ```
 
 ---
-## RDFからプロパティグラフへの変換
+## RDFからプロパティグラフへの変換（G2GML）
 
+TreeNumberが :parentTreeNumber の関係かつカテゴリを示す接頭語==Aのトリプルをグラフとして取得する場合、
+このG2GMLをファイルに保存しておく。
+
+```
+PREFIX meshv: <http://id.nlm.nih.gov/mesh/vocab#>
+
+(m:TreeNumber)
+    ?m a meshv:TreeNumber .
+
+(m1:TreeNumber)-[:parentTreeNumber]->(m2:TreeNumber)
+  ?m1 meshv:parentTreeNumber ?m2 .
+  FILTER(REGEX(?m1,'A'))
+```
+
+
+---
+## RDFからプロパティグラフへの変換（G2G Mapperの実行）
+
+ローカルのvirtuosoから（mesh.g2gとする）で変換を実行する場合下記のようにg2gを呼ぶ。
+
+```
+g2g mesh.g2g http://localhost:8890/sparql?default-graph-uri=http%3A%2F%2Flocalhost%3A8890%2FDAV
+```
 
 
 ---
 ## MeSH Treeのグラフ
+
+先ほどのファイルを（例えばmesh.g2gとして）を呼び出すと、例えば下のようなプロパティグラフが出力される。
+
+
+
+```
+A21.249   A21   :parentTreeNumber
+```
+
+※実際は前出のg2gでは、URIとして出力される。
 
 
 ---
