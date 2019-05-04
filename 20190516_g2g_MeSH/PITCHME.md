@@ -24,7 +24,7 @@ PUBmedなどNLMの生物医学系データベースをインデックスする�
 ---
 
 このMeSH DescriptorとTreeのデータから
-[G2G Mapper](https://g2gml.readthedocs.io/en/latest/contents/g2gml.html)を使いグラフを構築してみるというのが今回発表の趣旨。
+[G2G](https://g2gml.readthedocs.io/en/latest/contents/g2gml.html)を使いグラフを構築してみるというのが今回発表の趣旨。
 
 ---
 ## MeSH RDF
@@ -107,9 +107,9 @@ asciiフォーマットのMeSHファイル（d2019.bin）に含まれるMeSH Tre
 D014771 has_code A21.249
 ```
 
-※ファイルから抽出したこのエッジは、プロパティ"has_code"とした
+<small>※ファイルから抽出したこのエッジは、プロパティ"has_code"とした</small>
 
-※RDFにTreeとUIの関係が含まれていれば利用するのだが見つからなかった
+<small>※RDFにTreeとUIの関係が含まれていれば利用するのだが見つからなかった</small>
 
 ---
 ### Cytoscapeに読み込みTree構造のグラフとMeSH-Treeをマージ
