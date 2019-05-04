@@ -5,9 +5,7 @@
 # https://github.com/gitpitch/gitpitch/wiki/Slideshow-Settings
 #
 theme : sky
-theme-override : assets/css/PITCHME.css
 logo : images/logo.png
-background : assets/image/constellation.svg
 background-size : cover
 highlight : atom-one-light
 transition : none
