@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6f3cd1d-1dec-4fa2-aff0-8fa89d0f5acb" name="Default" comment="" />
+    <list default="true" id="d6f3cd1d-1dec-4fa2-aff0-8fa89d0f5acb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20190516_g2g_MeSH/PITCHME.md" afterPath="$PROJECT_DIR$/20190516_g2g_MeSH/PITCHME.md" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,12 +17,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="memo.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="memo.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/memo/memo.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="85">
-                <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="49" />
+              <first_editor relative-caret-position="136">
+                <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -31,12 +33,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PITCHME.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PITCHME.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/20190516_g2g_MeSH/PITCHME.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="17">
-                <caret line="1" column="45" lean-forward="false" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+              <first_editor relative-caret-position="442">
+                <caret line="26" column="11" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -439,12 +441,12 @@
       <workItem from="1540430034201" duration="785000" />
       <workItem from="1549647097019" duration="2383000" />
       <workItem from="1549676358598" duration="6000" />
-      <workItem from="1556517366766" duration="6325000" />
+      <workItem from="1556517366766" duration="6632000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46878000" />
+    <option name="totallyTimeSpent" value="47185000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="554" y="79" width="1804" height="1320" extended-state="0" />
@@ -459,7 +461,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2929374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.101021565" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17196368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -560,11 +562,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/20190516_g2g_MeSH/PITCHME.md">
+    <entry file="file://$PROJECT_DIR$/memo/memo.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="17">
-            <caret line="1" column="45" lean-forward="false" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="136">
+            <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             <folding />
           </first_editor>
           <second_editor />
@@ -574,11 +576,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/memo/memo.md">
+    <entry file="file://$PROJECT_DIR$/20190516_g2g_MeSH/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="85">
-            <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="49" />
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="442">
+            <caret line="26" column="11" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
             <folding />
           </first_editor>
           <second_editor />

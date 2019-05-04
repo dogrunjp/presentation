@@ -3,7 +3,7 @@
 
 ### 2019/5/16 PGX ユーザー勉強会 #12
 
-### オーイシ
+### dogrun Inc. 
 
 ---
 ## Medical Subject Headings (MeSH)とは
@@ -24,17 +24,18 @@ PUBmedなどNLMの生物医学系データベースをインデックスする�
 このMeSH descriptorとtree構造のデータから[G2G Mapper](https://g2gml.readthedocs.io/en/latest/contents/g2gml.html)を使いグラフを構築してみるというのが今回発表の趣旨。
 
 ---
-## MeSH RDF：
+## MeSH RDF
 
 
-MeSHデータは各種フォーマットのファイル（ftp://nlmpubs.nlm.nih.gov/online/mesh/）やsparqlエンドポイント（https://id.nlm.nih.gov/mesh/sparql）で提供されている
+MeSHデータは各種フォーマットのファイル（ftp://nlmpubs.nlm.nih.gov/online/mesh/）や
+sparqlエンドポイント（https://id.nlm.nih.gov/mesh/sparql） で提供されている
 
 G2GMapperの変換は
-- 静的なファイルから変換する場合、大きいファイルをパースするのに時間がかかる
-- sparqlエンドポイントで利用する場合オフセットオプションを設定できない
+- 大きい静的ファイルをパースするのに時間がかかる
+- sparqlエンドポイントでオフセットオプションを設定できない
 
-だったため、ローカルのvirtuosoにftpサイトからDLした
-N-Tripleファイル（mesh.nt）を読み込んで、ローカルのvirtuosoを使ってRDFからグラフへの変換を行った。
+ためローカルのvirtuosoにftpサイトからDLした
+N-Tripleファイル（mesh.nt）を読み込んで、プロパティグラフへの変換を行った。
 
 
 ---
