@@ -17,13 +17,13 @@ PUBmedなどNLMの生物医学系データベースをインデックスする�
 
 - MeSHは16のカテゴリに分類される
 - それぞれのカテゴリは最大13の専門性の詳細さによる階層構造を持つ
-- MeSH descriptorは少なくとも一つのtree形状にひもづくが、だいたい複数のtreeに位置する
+- MeSH descriptorは少なくとも一つの（概ね複数の）tree形状に紐付
 
 [MeSH Tree Structures](https://www.nlm.nih.gov/mesh/intro_trees.html)
 
 ---
 
-このMeSH descriptorとtree構造のデータから
+このMeSH DescriptorとTreeのデータから
 [G2G Mapper](https://g2gml.readthedocs.io/en/latest/contents/g2gml.html)を使いグラフを構築してみるというのが今回発表の趣旨。
 
 ---
@@ -51,9 +51,6 @@ aliasをdockerコンテナに設定して利用。
 ```bash
 $ alias g2g='docker run --rm -v $PWD:/work g2gml/g2g:x.x.x g2g'
 ```
-
-
-
 
 ---
 ## RDFからプロパティグラフへの変換（G2GML）
@@ -88,8 +85,8 @@ g2g mesh.g2g http://localhost:8890/sparql?default-graph-uri=http%3A%2F%2Flocalho
 
 g2gによって、例えば下のようなプロパティグラフが出力される。
 
-**例**
 ```bash
+// 例
 A21.249   A21   :parentTreeNumber
 ```
 
@@ -97,7 +94,7 @@ A21.249   A21   :parentTreeNumber
 
 
 ---
-## MeSH descriptorととTreeとのリンク
+## DescriptorとTreeとのリンク
 
 MeSH TreeにはMeSH descriptorが紐づくが、このTreeとMeSH descriptorのリンクをグラフとして取得するため
 asciiフォーマットのMeSHファイル（d2019.bin）に含まれるMeSH Tree NumberとMeSH UIで
@@ -105,8 +102,8 @@ asciiフォーマットのMeSHファイル（d2019.bin）に含まれるMeSH Tre
 
 ---
 
-**例**
 ```bash
+// 例
 D014771 has_code A21.249
 ```
 
@@ -121,8 +118,20 @@ D014771 has_code A21.249
 
 
 ---
-### Neo4jに読み込んでプロパティパス検索
+### Neo4jへインポート
 
-マージしたグラフをNeo4Jに読み込むと、パスクエリで面白い検索ができる。
+マージしたグラフをNeo4Jに読み込むと、パスクエリを利用して面白い検索ができる。
+
+例えば、あるMeSH Tree Numberに直接だけではなく、
+その子階層で関係するMeSH UIをパスクエリで検索することができる。
+
+```sql
+MATCH p=(u1)-[:has_code]->(c1)-[:parentTreeNumber*0..]->(:Code {Id:"A08.186.211.180"})
+RETURN p
+```
+
+---
+
+<center><img src="https://github.com/dogrunjp/presentation/blob/master/images/mesh_neo4j_path_query_sample.png?raw=true" width=500></center>
 
 
