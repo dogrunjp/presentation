@@ -29,8 +29,15 @@ PUBmedなどNLMの生物医学系データベースをインデックスする�
 MeSHデータは各種フォーマットのファイル（ftp://nlmpubs.nlm.nih.gov/online/mesh/）や
 sparqlエンドポイント で提供されている（https://id.nlm.nih.gov/mesh/sparql ）。
 
-G2GMapperは、大きい静的ファイルをパースするのに時間がかかる＆オフセットオプションを設定できないなどの理由で
-ローカルのvirtuosoにftpサイトからDLしたN-Tripleファイル（mesh.nt）を読み込んで、プロパティグラフへの変換を行った。
+---
+
+G2GMapperは、
+
+- 大きい静的ファイルをパースするのに時間がかかる
+- オフセットオプションを設定できない
+
+などの理由で今回ローカルのvirtuosoにftpサイトからDLしたN-Tripleファイル（mesh.nt）を読み込んで、
+プロパティグラフへの変換を行った。
 
 
 ---
@@ -39,9 +46,9 @@ G2GMapperは、大きい静的ファイルをパースするのに時間がか�
 G2G Mapperは、
 aliasをdockerコンテナに設定して利用。
 
-```
+
 $ alias g2g='docker run --rm -v $PWD:/work g2gml/g2g:x.x.x g2g'
-```
+
 
 ---
 ## RDFからプロパティグラフへの変換（G2GML）
@@ -49,7 +56,7 @@ $ alias g2g='docker run --rm -v $PWD:/work g2gml/g2g:x.x.x g2g'
 TreeNumberが :parentTreeNumber の関係かつカテゴリを示す接頭語==Aのトリプルをグラフとして取得する場合、
 このG2GMLをファイルに保存しておく。
 
-```
+
 PREFIX meshv: <http://id.nlm.nih.gov/mesh/vocab#>
 
 (m:TreeNumber)
@@ -58,7 +65,7 @@ PREFIX meshv: <http://id.nlm.nih.gov/mesh/vocab#>
 (m1:TreeNumber)-[:parentTreeNumber]->(m2:TreeNumber)
   ?m1 meshv:parentTreeNumber ?m2 .
   FILTER(REGEX(?m1,'A'))
-```
+
 
 
 ---
@@ -66,9 +73,9 @@ PREFIX meshv: <http://id.nlm.nih.gov/mesh/vocab#>
 
 ローカルのvirtuosoから（mesh.g2gとする）で変換を実行する場合下記のようにg2gを呼ぶ。
 
-```
+
 g2g mesh.g2g http://localhost:8890/sparql?default-graph-uri=http%3A%2F%2Flocalhost%3A8890%2FDAV
-```
+
 
 
 ---
@@ -77,12 +84,10 @@ g2g mesh.g2g http://localhost:8890/sparql?default-graph-uri=http%3A%2F%2Flocalho
 先ほどのファイルを（例えばmesh.g2gとして）を呼び出すと、例えば下のようなプロパティグラフが出力される。
 
 
-
-```
 A21.249   A21   :parentTreeNumber
-```
 
-※実際は前出のg2gでは、URIとして出力される。
+
+※実際は前出のg2gでは、URIとしてノードは出力される。
 
 
 ---
