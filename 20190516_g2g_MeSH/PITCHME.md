@@ -140,7 +140,7 @@ D014771 has_code A21.249
 
 A08.186.211.180の子階層以下に紐づくMeSHを検索
 
-<center><img src="https://github.com/dogrunjp/presentation/blob/master/images/mesh_neo4j_path_query_sample.png?raw=true" width=500></center>
+<center><img src="https://github.com/dogrunjp/presentation/blob/master/images/mesh_neo4j_path_query_sample.png?raw=true" width=450></center>
 
 ```sql
 MATCH p=(u1)-[:has_code]->(c1)-[:parentTreeNumber*0..]->(:Code {Id:"A08.186.211.180"})
