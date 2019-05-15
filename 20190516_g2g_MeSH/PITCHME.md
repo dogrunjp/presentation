@@ -147,3 +147,8 @@ MATCH p=(u1)-[:has_code]->(c1)-[:parentTreeNumber*0..]->(:Code {Id:"A08.186.211.
 RETURN p
 ```
 
+---
+
+### 来月エンジニア向け生命科学データ解析のイベント開催します
+
+<center><img src="https://github.com/dogrunjp/presentation/blob/master/images/shizuokangs_2_ad.png?raw=true" width=750></center>
