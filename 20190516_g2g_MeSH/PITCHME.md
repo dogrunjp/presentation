@@ -29,17 +29,20 @@ RDFからプロパティグラフへの変換ツールである
 今回の資料の趣旨
 
 ---
-## MeSH RDFからプロパティグラフへの変換
+## MeSH RDF-プロパティグラフへの変換
 
 MeSHデータは
 - 各種フォーマットのファイル（ftp://nlmpubs.nlm.nih.gov/online/mesh/）や
 - sparqlエンドポイントで提供されている（https://id.nlm.nih.gov/mesh/sparql ）
 
 ---
-G2GMapperを使ってsparqlエンドポイントからMeSHコードの階層構造をグラフに変換しました
+### 今回は
+
+G2GMapperを使ってsparqlエンドポイントからMeSHコードを取得しプロパティグラフに変換しました
 
 ---
-G2GMapperは、
+
+### G2GMapperは‥
 
 - 大きい静的ファイルをパースするのに時間がかかる
 - オフセットオプションを設定できない
@@ -51,7 +54,7 @@ G2GMapperは、
 ## G2G Mapperの設定
 
 G2G Mapperは
-aliasをdockerコンテナに設定して利用
+aliasをdockerコンテナに設定し利用
 
 ```bash
 $ alias g2g='docker run --rm -v $PWD:/work g2gml/g2g:x.x.x g2g'
@@ -84,6 +87,7 @@ G2GMLが記述されたファイル名をmesh.g2gした場合‥
 g2g mesh.g2g http://localhost:8890/sparql?default-graph-uri=http%3A%2F%2Flocalhost%3A8890%2FDAV
 ```
 
+virtuosoの設定のためか、パラメータの記述が必要でした。
 
 ---
 ## MeSH Treeのグラフの出力
@@ -95,7 +99,7 @@ g2gによって、例えば下のようなプロパティグラフが出力さ�
 A21.249   A21   :parentTreeNumber
 ```
 
-※実際は前出のg2gでは、URIとしてノードは出力される。
+<small>※実際は前出のg2gでは、URIとしてノードは出力される。</small>
 
 
 ---
@@ -129,16 +133,17 @@ D014771 has_code A21.249
 
 - 例えば、あるMeSH Tree Numberに直接だけではなく、その子階層で関係するMeSH UIをパスクエリで検索することができる
 
-```sql
-MATCH p=(u1)-[:has_code]->(c1)-[:parentTreeNumber*0..]->(:Code {Id:"A08.186.211.180"})
-RETURN p
-```
+
 
 ---
 ### パスクエリを使った検索のサンプル
 
-A08.186.211.180の子階層以下のTree含めて関連するMeSHを検索したサンプル
+A08.186.211.180の子階層以下に紐づくMeSHを検索
 
 <center><img src="https://github.com/dogrunjp/presentation/blob/master/images/mesh_neo4j_path_query_sample.png?raw=true" width=500></center>
 
+```sql
+MATCH p=(u1)-[:has_code]->(c1)-[:parentTreeNumber*0..]->(:Code {Id:"A08.186.211.180"})
+RETURN p
+```
 
