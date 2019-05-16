@@ -151,4 +151,4 @@ RETURN p
 
 ### 来月エンジニア向け生命科学データ解析のイベント開催します
 
-<center><img src="https://github.com/dogrunjp/presentation/blob/master/images/shizuokangs_2_ad.png?raw=true" width=750></center>
+<center><a href="https://shizuoka-ngs.connpass.com/event/128816/"><img src="https://github.com/dogrunjp/presentation/blob/master/images/shizuokangs_2_ad.png?raw=true" width=750></a></center>
