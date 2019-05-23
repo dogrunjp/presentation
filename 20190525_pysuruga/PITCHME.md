@@ -1,7 +1,7 @@
 @title[Introduction]
 ## Pythonで作る生命科学データ関連Webサービス
 
-### 2019/5/25 Python駿河 勉強会 #1
+### 2019/5/25 [Python駿河 勉強会 #1](https://py-suruga.connpass.com/event/127869/)
 
 ### dogrun Inc. オーイシ
 
