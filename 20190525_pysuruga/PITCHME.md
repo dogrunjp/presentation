@@ -9,61 +9,76 @@
 ## 発表者の紹介
 
 - 名前：オーイシ
-- 肩書：静岡市のとある会社（従業員一人）の代表
-- 仕事：データ可視化業（生命科学研究に関わるデータベース関連サービスの構築）
-
+- 肩書：静岡市のある会社（従業員一人）代表
+- 仕事：データ可視化業（生命科学研究に関わるデータベース関連サービスの構築も）
 
 ---
 ## Pythonを使った事例の紹介
-
-
 
 ---
 ## AOE [https://aoe.dbcls.jp](https://aoe.dbcls.jp)
 
 公共データベースに登録された遺伝子発現データについて、検索・閲覧・比較するこのとできる目次サービス。
 
-<center><img src=""></center width=800>
+<center><a href="https://aoe.dbcls.jp"><img src="https://github.com/dogrunjp/presentation/blob/master/images/20190525_pysuruga_aoe.png?raw=true" width=750></a></center>
 
 ---
 ## AOEのPythonなところ
 
+- 遺伝子発現データの可視化（データベースの探索的な可視化）が特徴のサービス
+- APIはPythonで構築
+- 可視化しているデータの統計値をデータ更新時にPythonで計算
 
 ---
 ## 統合TV [https://togotv.dbcls.jp/](https://togotv.dbcls.jp/)
 
+データベースやウェブツールの使い方を動画で解説するサービス
+
+<center><a href="https://togotv.dbcls.jp/"><img src="https://github.com/dogrunjp/presentation/blob/master/images/20190525_pysuruga_togotv.png?raw=true" width=750></a></center>
+
 
 ---
-統合TVに興味のある方、この動画サイトの内容とリンクしたこちらの本もサイトで何について解説しているかのご参考にしていただけると思います、、
+統合TVに興味のある方、サイトとリンクしたこちらの書籍もご参考にしていただけると思います
 
-[生命科学データベース・ウェブツール 図解と動画で使い方がわかる! 研究がはかどる定番18選](https://www.amazon.co.jp/生命科学データベース・ウェブツール-図解と動画で使い方がわかる-研究がはかどる定番18選-坊農秀雅/dp/4815701431)
+[「生命科学データベース・ウェブツール 図解と動画で使い方がわかる! 研究がはかどる定番18選」](https://www.amazon.co.jp/生命科学データベース・ウェブツール-図解と動画で使い方がわかる-研究がはかどる定番18選-坊農秀雅/dp/4815701431)
 ---
 ## 統合TVのPythonなところ
 
-
+- コンテンツのソースはGoogleドライブやYoutubeで管理している
+- Pythonの静的サイトジェネレータを使ってサイトを構築している
 
 ---
-## 新着論文レビュー
+## 新着論文レビュー　[https://first.lifesciencedb.jp/](https://first.lifesciencedb.jp/)
+
+日本人の著者による生命科学分野の論文の著者本人による日本語レビュー
+
+<center><a href="https://first.lifesciencedb.jp/"><img src="https://github.com/dogrunjp/presentation/blob/master/images/20190525_pysuruga_fa.png?raw=true" width=750></a></center>
 
 
 ---
 ## 新着論文レビューのPythonなところ
 
-
-
----
-## DDBJ Search
-
+- Pythonの静的サイトジェネレータで構築
+- コンテンツ内の生命科学用語の自動アノテーション機能のバックエンド
 
 ---
-## DDBJ SearchのPythonなところ
+## DBCLS SRA [https://first.lifesciencedb.jp/](https://first.lifesciencedb.jp/)
 
+公共データベースに登録された次世代シーケンサー（NGS）の塩基配列データを、
+様々な属性情報から検索しデータ取得できるサイト
+
+<center><a href="http://sra.dbcls.jp/"><img src="https://github.com/dogrunjp/presentation/blob/master/images/20190525_pysuruga_ddbjsearch.png?raw=true" width=750></a></center>
+
+---
+## DBCLS SRAのPythonなところ
+
+- 日々更新されるデータを収集しElasticsearchに保存する自動処理
+- 検索API構築
 
 ---
 ## Pythonの利用用途
 
 <center><img src="https://github.com/dogrunjp/presentation/blob/master/images/20190525_pysuruga_service_aim.png?raw=true" width=800></center>
-
 
 
 ---
