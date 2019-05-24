@@ -67,6 +67,10 @@
 
 <center><a href="https://first.lifesciencedb.jp/"><img src="https://github.com/dogrunjp/presentation/blob/master/images/20190525_pysuruga_fa.png?raw=true" width=750></a></center>
 
++++
+
+- 最新の生命科学研究のレビューを日本語で読むことができる
+- 専門用語を自動的にマークアップし関連するサービスへのリンクを追加
 
 +++
 ## 新着論文レビューのPythonなところ
@@ -83,6 +87,7 @@
 <center><a href="http://sra.dbcls.jp/"><img src="https://github.com/dogrunjp/presentation/blob/master/images/20190525_pysuruga_ddbjsearch.png?raw=true" width=750></a></center>
 
 +++
+
 ## DBCLS SRAのPythonなところ
 
 - 日々更新されるデータを収集しElasticsearchに保存する自動処理
