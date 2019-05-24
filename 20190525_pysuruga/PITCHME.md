@@ -23,7 +23,7 @@
 
 <center><a href="https://aoe.dbcls.jp"><img src="https://github.com/dogrunjp/presentation/blob/master/images/20190525_pysuruga_aoe.png?raw=true" width=750></a></center>
 
----
++++
 ## AOEのPythonなところ
 
 - 遺伝子発現データの可視化（データベースの探索的な可視化）が特徴のサービス
@@ -40,11 +40,11 @@
 <center><a href="https://togotv.dbcls.jp/"><img src="https://github.com/dogrunjp/presentation/blob/master/images/20190525_pysuruga_togotv.png?raw=true" width=750></a></center>
 
 
----
++++
 統合TVに興味のある方、サイトとリンクしたこちらの書籍もご参考にしていただけると思います
 
 [「生命科学データベース・ウェブツール 図解と動画で使い方がわかる! 研究がはかどる定番18選」](https://www.amazon.co.jp/生命科学データベース・ウェブツール-図解と動画で使い方がわかる-研究がはかどる定番18選-坊農秀雅/dp/4815701431)
----
++++
 ## 統合TVのPythonなところ
 
 - コンテンツのソースはGoogleドライブやYoutubeで管理している
@@ -59,7 +59,7 @@
 <center><a href="https://first.lifesciencedb.jp/"><img src="https://github.com/dogrunjp/presentation/blob/master/images/20190525_pysuruga_fa.png?raw=true" width=750></a></center>
 
 
----
++++
 ## 新着論文レビューのPythonなところ
 
 - Pythonの静的サイトジェネレータで構築
@@ -73,7 +73,7 @@
 
 <center><a href="http://sra.dbcls.jp/"><img src="https://github.com/dogrunjp/presentation/blob/master/images/20190525_pysuruga_ddbjsearch.png?raw=true" width=750></a></center>
 
----
++++
 ## DBCLS SRAのPythonなところ
 
 - 日々更新されるデータを収集しElasticsearchに保存する自動処理
