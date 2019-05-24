@@ -24,15 +24,19 @@
 <center><a href="https://aoe.dbcls.jp"><img src="https://github.com/dogrunjp/presentation/blob/master/images/20190525_pysuruga_aoe.png?raw=true" width=750></a></center>
 
 +++
-## AOEのPythonなところ
-
-- 遺伝子発現データの可視化（データベースの探索的な可視化）が特徴のサービス
-- APIはPythonで構築
-- 可視化しているデータの統計値をデータ更新時にPythonで計算
-
-+++
+### 遺伝子発現データの可視化（データベースの探索的な可視化）が特徴のサービス
 
 <center><a href="https://aoe.dbcls.jp"><img src="https://github.com/dogrunjp/presentation/blob/master/images/20190525_pysuruga_aoe2.png?raw=true" width=750></a></center>
+
+発現データを検索する直感的なGUIを提供しています
+
++++
+## AOEのPythonなところ
+
+
+- APIをPythonで構築
+- 可視化しているデータの統計値をデータ更新時にPythonで計算
+
 
 
 ---
