@@ -112,6 +112,6 @@
 
 +++
 
-こちらの本の2章の解析を解説を交えて体験していただく予定です
+今回のイベントではこちらの書籍の2章の解析を解説を交えて体験していただく予定です
 
 <center><a href="https://www.amazon.co.jp/生命科学データ解析を支える情報技術-坊農-秀雅/dp/4297103192"><img src="http://bonohu.jp/blog/images/IT4BDA.jpg" with=300></a></center>
