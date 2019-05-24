@@ -30,6 +30,11 @@
 - APIはPythonで構築
 - 可視化しているデータの統計値をデータ更新時にPythonで計算
 
++++
+
+<center><a href="https://aoe.dbcls.jp"><img src="https://github.com/dogrunjp/presentation/blob/master/images/20190525_pysuruga_aoe2.png?raw=true" width=750></a></center>
+
+
 ---
 ## 統合TV
 
