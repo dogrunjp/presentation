@@ -109,3 +109,9 @@
 ### 来月、静岡市でエンジニア向け生命科学データ解析のイベント開催します
 
 <center><a href="https://shizuoka-ngs.connpass.com/event/128816/"><img src="https://github.com/dogrunjp/presentation/blob/master/images/shizuokangs_2_ad.png?raw=true" width=750></a></center>
+
++++
+
+こちらの本の2章の解析を解説を交えて体験していただく予定です
+
+<center><a href="https://www.amazon.co.jp/生命科学データ解析を支える情報技術-坊農-秀雅/dp/4297103192"><img src="http://bonohu.jp/blog/images/IT4BDA.jpg" with=300></a></center>
