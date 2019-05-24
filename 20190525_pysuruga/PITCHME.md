@@ -51,7 +51,8 @@
 - Pythonの静的サイトジェネレータを使ってサイトを構築している
 
 ---
-## 新着論文レビュー　[https://first.lifesciencedb.jp/](https://first.lifesciencedb.jp/)
+## 新着論文レビュー　
+### [https://first.lifesciencedb.jp/](https://first.lifesciencedb.jp/)
 
 日本人の著者による生命科学分野の論文の著者本人による日本語レビュー
 
