@@ -1,11 +1,15 @@
+import sys
 import csv
 import networkx as nx
 import random
 from gensim.models import Word2Vec as word2vec
 
 
-wiki_page_id = "2809541"
-sample_size = 10
+args = sys.argv
+
+wiki_page_label = args[1] if args[1] else "Berryz工房"
+sample_size = args[2] if args[2] else 10
+pg_file_path = args[3] if args[3] else "../output/artist2artist/artist2artist.pg"
 
 
 def label(str):
@@ -23,8 +27,7 @@ def make_random_walks(G, num_of_walk, length_of_walk):
             walk.append(str(node))
             for j in range(length_of_walk):
                 lst = list(G.neighbors(now_node))
-                # IndexError: Cannot choose from an empty sequence が
-                # random.choice()で発生するため。要fix！
+                # IndexError: Cannot choose from an empty sequence がrandom.choice()で発生するため
                 if len(lst)==0:
                     pass
                 else:
@@ -35,16 +38,15 @@ def make_random_walks(G, num_of_walk, length_of_walk):
     return walks
 
 
-def convert_id2artist(i):
-    return [x for x in labels if x["id"]==i]
+def convert_artist2id(str):
+    return [x for x in labels if str in x["label"]][0]["id"]
 
 
 def convert_id2artist(i):
     return [x for x in labels if x["id"]==i]
 
 
-input_file = "../output/artist2artist/artist2artist.pg"
-f = open(input_file, mode="r")
+f = open(pg_file_path, mode="r")
 
 reader = csv.reader(f, delimiter="\t")
 # NetworkXにGraph.add_node()できるノードに変換
@@ -52,7 +54,7 @@ nodes = [(r[0], {"label":label(r[2])}) for r in reader if r[1]==":page_id"]
 f.seek(0)
 # NetworkXに読み込める属性付きエッジに変換
 edges = [(r[0], r[2], {"property": r[3]}) for r in reader if r[1]=="->"]
-
+labels = [{"id":x[0],"label": x[1]["label"]} for x in nodes]
 
 G = nx.DiGraph()
 # ノードを追加
@@ -61,15 +63,13 @@ G.add_nodes_from(nodes)
 G.add_edges_from(edges)
 
 
+# パラメータの検討必要！！！！
 walks = make_random_walks(G, 20, 20)
 model = word2vec(walks, min_count=0, size=2, window=5, workers=1)
 
-
+wiki_page_id = convert_artist2id(wiki_page_label)
 vector = model.wv[wiki_page_id]
-ranking = model.wv.most_similar([vector], [], sample_size)
-
-
-labels = [{"id":x[0],"label": x[1]["label"]} for x in nodes]
+ranking = model.wv.most_similar([vector], [], int(sample_size))
 
 
 for e in ranking:
