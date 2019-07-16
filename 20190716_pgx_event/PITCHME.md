@@ -129,8 +129,7 @@ $ python get_ranking.py <アーティスト名> <出力するランキング数>
 
 ```
 
-$ python get_ranking.py Berryz工房 30 \
-   "../output/artist2artist/artist2artist.pg"
+python get_ranking.py Berryz工房 30 ../output/artist2artist/artist2artist.pg
 
 ```
 
@@ -211,12 +210,6 @@ $ python get_ranking.py Berryz工房 30 \
 +++
 #### サカナクションでは
 
-```
-
-python get_ranking.py サカナクション 30 \
-    "../output/artist2artist/artist2artist.pg"
-    
-```
 
 +++
 
