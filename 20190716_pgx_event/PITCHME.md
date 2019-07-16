@@ -98,7 +98,7 @@ WDの下に`output/artist2artist/artist2artist.pg` のようにpgファイルが
 ### Random walkとWord2Vec
  
  
-[参考：DeepWalkを実装してみた](https://netres-bigdata.hatenablog.com/entry/2018/07/06/042240)  
+#### [参考：DeepWalkを実装してみた](https://netres-bigdata.hatenablog.com/entry/2018/07/06/042240)  
 
 +++
 
