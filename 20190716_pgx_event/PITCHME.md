@@ -59,20 +59,18 @@ SQL> rdf_loader_run();
 ## RDFからプロパティグラフへの変換
 
 ---
-### 今回試したG2GML (artist2artist.g2g)
+#### 今回試したG2GML (artist2artist.g2g)
 
 ```
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
 
-# Node mappings
 (id:page_id {label:nam})
     ?mus rdf:type dbpedia-owl:MusicalArtist .
     ?mus rdfs:label ?nam . 
     ?mus dbpedia-owl:wikiPageID ?id .
 
-# Edge mappings
 (id1:page_id)-[:wikiPageWikiLink]->(id2:page_id)
     ?mus1 rdf:type dbpedia-owl:MusicalArtist .
     ?mus2 rdf:type dbpedia-owl:MusicalArtist .
