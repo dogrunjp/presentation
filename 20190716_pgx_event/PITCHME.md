@@ -81,7 +81,7 @@ PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
     ?mus2 dbpedia-owl:wikiPageID ?id2 .
 ```
 
-<div class="sm">プロパティグラフのノードをWikiPageIDとします。あとSPARQL力が低い。。</div>
+<div class="sm">グラフのノードはWikiPageIDとします。あとSPARQL力が低い。。</div>
 
 +++
 ### G2G実行
@@ -92,17 +92,17 @@ $ g2g artist2artist.g2g http://xx.xx.xx.xx:8890/sparql
 
 ```
 
-WDの下に`output/artist2artist/artist2artist.pg` のようにpgファイルが出力されます
+ワーキングディレクトリの下に`output/artist2artist/artist2artist.pg` のようにpgファイルが出力されます
 
 ---
 ### Random walkとWord2Vec
  
  
-#### [参考：DeepWalkを実装してみた](https://netres-bigdata.hatenablog.com/entry/2018/07/06/042240)  
+<div class="c_sm"> [参考：DeepWalkを実装してみた](https://netres-bigdata.hatenablog.com/entry/2018/07/06/042240)  </div>
 
 +++
 
-### 類似度測定
+### 類似度測定はおおよそこんな感じ
 
 model = Word2Vec(walks, min_count=, size=, window=, workers=)
 
@@ -116,7 +116,7 @@ model.most_similar( [vector], [], 出力数)
 ```
 $ python get_ranking.py <アーティスト名> <出力するランキング数> <pgのパス>
 ```
-<div class="c_sm">今回はこのスクリプトを使いました</div>
+<div class="c_sm">今回はこの↓スクリプトを使いました</div>
 
 <div class="c_sm">
 [https://github.com/dogrunjp/presentation/blob/master/20190716_pgx_event/get_ranking.py](https://github.com/dogrunjp/presentation/blob/master/20190716_pgx_event/get_ranking.py)
