@@ -7,7 +7,7 @@
 
 
 ---
-- Graphデータを対象とした機械学習すこしづつ盛り上がってます？
+- Graphデータを対象とした機械学習すこしづつ盛り上がっているいる？
 - RDFがMachine learning-readyであれば、整備されたRDFデータを活用しやすくなるかも
 
 +++
@@ -15,30 +15,90 @@
 ということで身近なデータであるDBpediaからg2gを使ってプロパティグラフを取得し
 Graph Embedding(Word2Vec)で類似するノードを取得してみました。
 
-WikipediaをMachine learning-readyな辞書として活用できたら面白いですよね。
+Wikipediaにある知識をMachine learning-readyな辞書として活用できたら面白いですよね？
 
 ---
-## 実際の操作
+## 環境構築
+---
+### Dockerでvirtuosoを起動
 
+```
+docker run \
+   -d \
+    --name my_virtdb \
+    --interactive \
+    --tty \
+    --env DBA_PASSWORD=hoge \
+    --publish 1111:1111 \
+    --publish  8890:8890 \
+    -v `pwd`/database:/opt/virtuoso-opensource/database  \
+    -v `pwd`/import:/import \
+    -e "NumberOfBuffers=100000000" \
+    -e "MaxDirtyBuffers=50000000" \
+    openlink/virtuoso-opensource-7:latest
+```
+- -eは効いていない可能せいも
+- ResultSetMaxRowsの設定はDockerに入ってvirtuoso.iniを変更する必要があった
+
+### DockerのvirtuosoにDBpediaのttlをインポート
+
+- [http://ja.dbpedia.org/dumps/20160407/](http://ja.dbpedia.org/dumps/20160407/)からttl.bz2を取得
+- database/virtuoso.iniに/importを追加しdocker restart
+```
+DirsAllowed       = ., /opt/virtuoso-opensource/vad, /import
+```
+- import
+```
+$ docker exec -it インスタンス名 /bin/bash
+#  # isql -U dba -P $DBA_PASSWORD
+SQL> ld_dir('/import', '*.ttl', 'http://dbpedia.org');
+SQL> rdf_loader_run();
+```
 
 ---
-### DockerのvirtuosoにDBpediaのttlを読み込む
+## G2GでRDFからプロパティグラフへの変換
+
+---
+### 今回試したG2GML (artist2artist.g2g)
+
+```
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+
+# Node mappings
+(id:page_id {label:nam})
+    ?mus rdf:type dbpedia-owl:MusicalArtist .
+    ?mus rdfs:label ?nam . 
+    ?mus dbpedia-owl:wikiPageID ?id .
+
+# Edge mappings
+(id1:page_id)-[:wikiPageWikiLink]->(id2:page_id)
+    ?mus1 rdf:type dbpedia-owl:MusicalArtist .
+    ?mus2 rdf:type dbpedia-owl:MusicalArtist .
+    ?mus1 dbpedia-owl:wikiPageWikiLink ?mus2 .
+    ?mus1 dbpedia-owl:wikiPageID ?id1 .
+    ?mus2 dbpedia-owl:wikiPageID ?id2 .
+```
+
+**プロパティグラフのノードをWikiPageIDとします。あとSPARQL力が低い。。**
 
 +++
+### G2G実行
 
----
-### G2Gでプロパティグラフに変換
+```
+$ alias g2g='docker run --rm -v $PWD:/work g2gml/g2g:0.3.4 g2g'
+$ g2g artist2artist.g2g http://xx.xx.xx.xx:8890/sparql  
 
-+++
+```
+
+WDの下に`output/artist2artist/artist2artist.pg` のようにpgファイルが出力されます
 
 ---
 ### Random walkとWord2Vec
  
  
 [参考：DeepWalkを実装してみた](https://netres-bigdata.hatenablog.com/entry/2018/07/06/042240)  
- 
-+++
-
 
 +++
 
@@ -54,7 +114,7 @@ model.most_similar( [vector], [], 出力数)
 ```
 $ python get_ranking.py <アーティスト名> <出力するランキング数> <pgのパス>
 ```
-今回はこのスクリプトを
+今回はこのスクリプトを使いました
 
 [https://github.com/dogrunjp/presentation/blob/master/20190716_pgx_event/get_ranking.py](https://github.com/dogrunjp/presentation/blob/master/20190716_pgx_event/get_ranking.py)
 
@@ -148,6 +208,6 @@ python get_ranking.py サカナクション 30 "../output/artist2artist/artist2a
 
 - random walkからWord2Vecまでパラメータが非常に多い
 - [Word2Vecで特定ノードの類似度を出力するスクリプトを公開しました](https://github.com/dogrunjp/presentation/blob/master/20190716_pgx_event/get_ranking.py)のでパラメータを色々変えて試してほしい
-- 今回の環境構築、g2gの設定など公開しました
+- 今回の環境構築、g2gの設定など今回の資料がそのまま使えるとおもいます
 - 誰かやってみて！良い設定を見つけてください
 - グラフ向けの機械学習を他にも試してみたい
