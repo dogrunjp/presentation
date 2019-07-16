@@ -1,5 +1,5 @@
 @title[Introduction]
-## DBpediaからg2gを使いプロパティグラフを取得しWord2Vecアーティストの類似度を算出してみた
+## DBpediaからG2Gでプロパティグラフを取得しWord2Vecでアーティストの類似度を算出してみた
 
 ### 2019/7/16 [PGX ユーザー勉強会 #13](https://pgx.connpass.com/event/134129/)
 
@@ -7,15 +7,15 @@
 
 
 ---
-- Graphデータを対象とした機械学習すこしづつ盛り上がっているいる？
-- RDFがMachine learning-readyであれば、整備されたRDFデータを活用しやすくなるかも
+- Graphデータを対象とした機械学習すこしづつ盛り上がっている？？
+- RDFなデータベースがMachine learning-readyであれば整備されたRDFデータがより活用しやすくなるかも
 
 +++
 
 ということで身近なデータであるDBpediaからg2gを使ってプロパティグラフを取得し
 Graph Embedding(Word2Vec)で類似するノードを取得してみました。
 
-Wikipediaにある知識をMachine learning-readyな辞書として活用できたら面白いですよね？
+Wikipediaにある知識をMachine learning-readyな辞書としていろいろ活用できたら面白いですよね？
 
 ---
 ## 環境構築
