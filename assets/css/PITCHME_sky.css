@@ -116,7 +116,11 @@ html:-moz-full-screen-ancestor {
     text-align: center;
 }
 
-.c_sm {
+.reveal .c_sm {
     text-align: center;
     font-size: 0.8em;
+}
+
+.reveal .sm {
+    font-size: 0.75em;
 }

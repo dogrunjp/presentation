@@ -39,7 +39,7 @@ docker run \
 ```
 - -eは効いていない可能せいも
 - ResultSetMaxRowsの設定はDockerに入ってvirtuoso.iniを変更する必要があった
-
+--- 
 ### DockerのvirtuosoにDBpediaのttlをインポート
 
 - [http://ja.dbpedia.org/dumps/20160407/](http://ja.dbpedia.org/dumps/20160407/)からttl.bz2を取得
