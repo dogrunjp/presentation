@@ -125,6 +125,8 @@ $ python get_ranking.py <アーティスト名> <出力するランキング数>
 +++
 #### 例１ Berryz工房の場合
 
+
+
 ```
 $ python get_ranking.py Berryz工房 30 ../output/artist2artist/artist2artist.pg
 ```
@@ -210,8 +212,8 @@ python get_ranking.py サカナクション 30 "../output/artist2artist/artist2a
 ---
 ### とりあえずやってみた感想
 
-- random walkからWord2Vecまでパラメータが非常に多い
-- [Word2Vecで特定ノードの類似度を出力するスクリプトを公開しました](https://github.com/dogrunjp/presentation/blob/master/20190716_pgx_event/get_ranking.py)のでパラメータを色々変えて試してほしい
+- random walk-Word2Vecのパラメータが非常に多い
+- [Word2Vecで特定ノードの類似度を出力するスクリプトを公開した](https://github.com/dogrunjp/presentation/blob/master/20190716_pgx_event/get_ranking.py)のでパラメータを色々変えて試してほしい
 - 今回の環境構築、g2gの設定など今回の資料がそのまま使えるとおもいます
 - 誰かやってみて！良い設定を見つけてください
 - グラフ向けの機械学習を他にも試してみたい
