@@ -133,8 +133,8 @@ $ python get_ranking.py Berryz工房 30 \
    "../output/artist2artist/artist2artist.pg"
 
 ```
-+++
 
++++
 <div class="sxm">
 [{'id': '231703', 'label': 'Lia'}]<br/>
 [{'id': '2750512', 'label': 'PUSHIM'}]<br/>
@@ -169,12 +169,52 @@ $ python get_ranking.py Berryz工房 30 \
 
 </div>
 
+
++++
+
+#### ℃-uteの場合
+
+<div class="sxm">
+[{'id': '688414', 'label': 'MICADELIC'}]<br/>
+[{'id': '299913', 'label': 'イ・ヒョリ'}]<br/>
+[{'id': '2173749', 'label': '"ミルキィホームズ (声優ユニット)"'}]<br/>
+[{'id': '1205017', 'label': 'ジェジュン'}]<br/>
+[{'id': '2438597', 'label': '"Sexy Zone"'}]<br/>
+[{'id': '653506', 'label': '"DJ MASTERKEY"'}]<br/>
+[{'id': '1206134', 'label': 'NORIKIYO'}]<br/>
+[{'id': '3046510', 'label': 'MEG.ME'}]<br/>
+[{'id': '2832706', 'label': 'シブヤDOMINION'}]<br/>
+[{'id': '2389133', 'label': '里神楽・神代神楽研究会'}]<br/>
+[{'id': '2894141', 'label': 'KAGAJO☆4S'}]<br/>
+[{'id': '1974308', 'label': '鶴田加茂'}]<br/>
+[{'id': '43046', 'label': 'ココナッツ娘。'}]<br/>
+[{'id': '262972', 'label': '"まこと (ミュージシャン)"'}]<br/>
+[{'id': '539477', 'label': '2BACKKA'}]<br/>
+[{'id': '116871', 'label': 'M.c.A・T'}]<br/>
+[{'id': '1946689', 'label': 'ユナク'}]<br/>
+[{'id': '270325', 'label': '℃-ute'}]<br/>
+[{'id': '2536161', 'label': '"Goose house"'}]<br/>
+[{'id': '656522', 'label': '市川昭介'}]<br/>
+[{'id': '3046080', 'label': '木之下慶行'}]<br/>
+[{'id': '1018288', 'label': '中吉涼子'}]<br/>
+[{'id': '2996580', 'label': '並木橋ハイスクール'}]<br/>
+[{'id': '2787690', 'label': '"Hiroki Sagawa"'}]<br/>
+[{'id': '441504', 'label': 'DROPS'}]<br/>
+[{'id': '1386339', 'label': 'いちごはちみつ'}]<br/>
+[{'id': '821110', 'label': '室屋光一郎'}]<br/>
+[{'id': '616442', 'label': '坂上庸介'}]<br/>
+[{'id': '1563888', 'label': 'しゅごキャラエッグ!'}]<br/>
+[{'id': '2671030', 'label': 'Unico'}]<br/>
+</div>
+
 +++
 #### サカナクションでは
 
 ```
+
 python get_ranking.py サカナクション 30 \
     "../output/artist2artist/artist2artist.pg"
+    
 ```
 
 +++

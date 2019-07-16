@@ -42,8 +42,8 @@
         <entry file="file://$PROJECT_DIR$/20190716_pgx_event/PITCHME.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="323">
-                <caret line="45" column="35" lean-forward="false" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+              <first_editor relative-caret-position="377">
+                <caret line="178" column="3" lean-forward="false" selection-start-line="178" selection-start-column="3" selection-end-line="178" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -510,12 +510,12 @@
       <workItem from="1558701612373" duration="9000" />
       <workItem from="1561016490545" duration="172000" />
       <workItem from="1563196150101" duration="9594000" />
-      <workItem from="1563258502498" duration="2838000" />
+      <workItem from="1563258502498" duration="3607000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94790000" />
+    <option name="totallyTimeSpent" value="95559000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="835" extended-state="0" />
@@ -1070,8 +1070,8 @@
     <entry file="file://$PROJECT_DIR$/20190716_pgx_event/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="323">
-            <caret line="45" column="35" lean-forward="false" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+          <first_editor relative-caret-position="377">
+            <caret line="178" column="3" lean-forward="false" selection-start-line="178" selection-start-column="3" selection-end-line="178" selection-end-column="3" />
             <folding />
           </first_editor>
           <second_editor />
