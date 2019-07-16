@@ -275,6 +275,12 @@ python get_ranking.py Berryz工房 30 ../output/artist2artist/artist2artist.pg
 [{'id': '2700168', 'label': 'HIKAKIN'}]<br/>
 </div>
 
++++
+
+#### 評価の方法がわからない‥
+
+<div class="c_sm">多少似ている何かがピックアップされている気もする</div>
+
 ---
 ### とりあえずやってみた感想
 

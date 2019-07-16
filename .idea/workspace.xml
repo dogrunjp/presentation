@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6f3cd1d-1dec-4fa2-aff0-8fa89d0f5acb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20190716_pgx_event/PITCHME.md" afterPath="$PROJECT_DIR$/20190716_pgx_event/PITCHME.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,8 +41,8 @@
         <entry file="file://$PROJECT_DIR$/20190716_pgx_event/PITCHME.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="615">
-                <caret line="175" column="0" lean-forward="false" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+              <first_editor relative-caret-position="360">
+                <caret line="279" column="0" lean-forward="false" selection-start-line="279" selection-start-column="0" selection-end-line="279" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -510,12 +509,12 @@
       <workItem from="1558701612373" duration="9000" />
       <workItem from="1561016490545" duration="172000" />
       <workItem from="1563196150101" duration="9594000" />
-      <workItem from="1563258502498" duration="3975000" />
+      <workItem from="1563258502498" duration="4187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95927000" />
+    <option name="totallyTimeSpent" value="96139000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="835" extended-state="0" />
@@ -1070,8 +1069,8 @@
     <entry file="file://$PROJECT_DIR$/20190716_pgx_event/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="615">
-            <caret line="175" column="0" lean-forward="false" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+          <first_editor relative-caret-position="360">
+            <caret line="279" column="0" lean-forward="false" selection-start-line="279" selection-start-column="0" selection-end-line="279" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
