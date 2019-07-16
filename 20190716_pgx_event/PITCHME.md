@@ -37,17 +37,17 @@ docker run \
     -e "MaxDirtyBuffers=50000000" \
     openlink/virtuoso-opensource-7:latest
 ```
-- -eは効いていない可能せいも
+- -eは効いていないかも
 - ResultSetMaxRowsの設定はDockerに入ってvirtuoso.iniを変更する必要があった
 --- 
-### DockerのvirtuosoにDBpediaのttlをインポート
+### Dockerのvirtuosoにttlをインポート
 
-- [http://ja.dbpedia.org/dumps/20160407/](http://ja.dbpedia.org/dumps/20160407/)からttl.bz2を取得
+- [http://ja.dbpedia.org/dumps/20160407/](http://ja.dbpedia.org/dumps/20160407/)からttlを取得
 - database/virtuoso.iniに/importを追加しdocker restart
 ```
-DirsAllowed       = ., /opt/virtuoso-opensource/vad, /import
+DirsAllowed = ., /opt/virtuoso-opensource/vad, /import
 ```
-- import
+- virtuosoにttlをインポート
 ```
 $ docker exec -it インスタンス名 /bin/bash
 #  # isql -U dba -P $DBA_PASSWORD
@@ -81,7 +81,7 @@ PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
     ?mus2 dbpedia-owl:wikiPageID ?id2 .
 ```
 
-<div class="c_sm">プロパティグラフのノードをWikiPageIDとします。あとSPARQL力が低い。。</div>
+<div class="sm">プロパティグラフのノードをWikiPageIDとします。あとSPARQL力が低い。。</div>
 
 +++
 ### G2G実行
