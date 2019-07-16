@@ -116,3 +116,7 @@ html:-moz-full-screen-ancestor {
     text-align: center;
 }
 
+.c_sm {
+    text-align: center;
+    font-size: 0.8em;
+}

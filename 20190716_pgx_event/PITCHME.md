@@ -81,7 +81,7 @@ PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
     ?mus2 dbpedia-owl:wikiPageID ?id2 .
 ```
 
-**プロパティグラフのノードをWikiPageIDとします。あとSPARQL力が低い。。**
+<div class="c_sm">プロパティグラフのノードをWikiPageIDとします。あとSPARQL力が低い。。</div>
 
 +++
 ### G2G実行
