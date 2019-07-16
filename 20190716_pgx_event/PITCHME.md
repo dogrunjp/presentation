@@ -174,6 +174,7 @@ $ python get_ranking.py Berryz工房 30 \
 
 #### ℃-uteの場合
 
++++
 <div class="sxm">
 [{'id': '688414', 'label': 'MICADELIC'}]<br/>
 [{'id': '299913', 'label': 'イ・ヒョリ'}]<br/>
