@@ -105,7 +105,9 @@ WDの下に`output/artist2artist/artist2artist.pg` のようにpgファイルが
 ### 類似度測定
 
 model = Word2Vec(walks, min_count=, size=, window=, workers=)
+
 vector = model.wv[wiki_page_id]
+
 model.most_similar( [vector], [], 出力数)
 
 +++
@@ -116,7 +118,9 @@ $ python get_ranking.py <アーティスト名> <出力するランキング数>
 ```
 今回はこのスクリプトを使いました
 
+<div class="c_sm">
 [https://github.com/dogrunjp/presentation/blob/master/20190716_pgx_event/get_ranking.py](https://github.com/dogrunjp/presentation/blob/master/20190716_pgx_event/get_ranking.py)
+</div>
 
 +++
 #### 例１ Berryz工房の場合
