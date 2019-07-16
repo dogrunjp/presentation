@@ -278,8 +278,8 @@ python get_ranking.py Berryz工房 30 ../output/artist2artist/artist2artist.pg
 ---
 ### とりあえずやってみた感想
 
-- random walk,Word2Vecのパラメータ多すぎ‥
 - DBpediaからどの関係を取得すると良いのか？
+- random walk,Word2Vecのパラメータ多すぎ‥
 - [Word2Vecでノードの類似度を出力するスクリプトを公開した](https://github.com/dogrunjp/presentation/blob/master/20190716_pgx_event/get_ranking.py)
 - 誰かもっとやってみて！良い設定を見つけてください
 - G2Gを使ってグラフ向けの機械学習を他にも試してみたい
