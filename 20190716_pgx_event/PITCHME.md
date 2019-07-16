@@ -12,7 +12,7 @@
 
 +++
 
-ということで身近なデータであるDBpediaからg2gを使ってプロパティグラフを取得し
+ということで身近なデータであるDBpediaからG2Gを使ってプロパティグラフを取得し
 Graph Embedding(Word2Vec)で類似するノードを取得してみました。
 
 Wikipediaにある知識をMachine learning-readyな辞書としていろいろ活用できたら面白いですよね？

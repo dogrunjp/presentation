@@ -133,3 +133,7 @@ html:-moz-full-screen-ancestor {
     font-size: 0.425em!important;
     font-weight: bold;
 }
+
+.reveal pre code {
+    font-size: 0.9em!important;
+}
