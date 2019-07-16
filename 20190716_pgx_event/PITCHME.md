@@ -123,12 +123,15 @@ $ python get_ranking.py <アーティスト名> <出力するランキング数>
 </div>
 
 +++
-#### 例１ Berryz工房の場合
+#### Berryz工房の場合
 
 
 
 ```
-$ python get_ranking.py Berryz工房 30 ../output/artist2artist/artist2artist.pg
+
+$ python get_ranking.py Berryz工房 30 \
+   "../output/artist2artist/artist2artist.pg"
+
 ```
 +++
 
@@ -167,10 +170,11 @@ $ python get_ranking.py Berryz工房 30 ../output/artist2artist/artist2artist.pg
 ```
 
 +++
-#### 例２　サカナクションの場合
+#### サカナクションでは
 
 ```
-python get_ranking.py サカナクション 30 "../output/artist2artist/artist2artist.pg"
+python get_ranking.py サカナクション 30 \
+    "../output/artist2artist/artist2artist.pg"
 ```
 
 +++
