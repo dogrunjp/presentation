@@ -56,7 +56,7 @@ SQL> rdf_loader_run();
 ```
 
 ---
-## G2GでRDFからプロパティグラフへの変換
+## RDFからプロパティグラフへの変換
 
 ---
 ### 今回試したG2GML (artist2artist.g2g)

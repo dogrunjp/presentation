@@ -82,26 +82,26 @@ html:-moz-full-screen-ancestor {
 /* add */
 
 .reveal h1 {
-    font-family: "Helvetica Neue", "Noto Sans CJK JP", Impact, sans-serif;
+    font-family: "Noto Sans CJK JP", "Helvetica Neue", "Noto Sans CJK JP", Impact, sans-serif;
     font-weight: bolder;
     font-size: 1.45em;
     line-height: 1.5;
 }
 
 .reveal h2 {
-    font-family: "Helvetica Neue", "Noto Sans CJK JP", Impact, sans-serif;
+    font-family: "Noto Sans CJK JP", "Helvetica Neue", "Noto Sans CJK JP", Impact, sans-serif;
     font-weight: bold;
     font-size: 1.25em;
 }
 
 .reveal h3 {
-    font-family: "Helvetica Neue", "Noto Sans CJK JP", Impact, sans-serif;
+    font-family: "Noto Sans CJK JP", "Helvetica Neue", "Noto Sans CJK JP", Impact, sans-serif;
     font-weight: bold;
     font-size:1.15em
 }
 
 .reveal h4 {
-    font-family: "Helvetica Neue", "Noto Sans CJK JP", Impact, sans-serif;
+    font-family: "Noto Sans CJK JP", "Helvetica Neue", "Noto Sans CJK JP", Impact, sans-serif;
     font-weight: normal;
     font-size:1.15em
 }
