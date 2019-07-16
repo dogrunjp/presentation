@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d6f3cd1d-1dec-4fa2-aff0-8fa89d0f5acb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20190716_pgx_event/PITCHME.md" afterPath="$PROJECT_DIR$/20190716_pgx_event/PITCHME.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,8 +32,8 @@
           <file leaf-file-name="PITCHME_sky.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/css/PITCHME_sky.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="103">
-                  <caret line="91" column="32" lean-forward="false" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
+                <state relative-caret-position="137">
+                  <caret line="84" column="17" lean-forward="false" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="54" />
                   <folding />
                 </state>
               </provider>
@@ -135,8 +134,8 @@
         <option value="$PROJECT_DIR$/20190716_pgx_event/get_ranking.py" />
         <option value="$PROJECT_DIR$/20190716_pgx_event/PITCHME.yaml" />
         <option value="$PROJECT_DIR$/memo/memo.md" />
-        <option value="$PROJECT_DIR$/assets/css/PITCHME_sky.css" />
         <option value="$PROJECT_DIR$/20190716_pgx_event/PITCHME.md" />
+        <option value="$PROJECT_DIR$/assets/css/PITCHME_sky.css" />
       </list>
     </option>
   </component>
@@ -564,12 +563,12 @@
       <workItem from="1558676519781" duration="2778000" />
       <workItem from="1558701612373" duration="9000" />
       <workItem from="1561016490545" duration="172000" />
-      <workItem from="1563196150101" duration="8448000" />
+      <workItem from="1563196150101" duration="8612000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90806000" />
+    <option name="totallyTimeSpent" value="90970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="588" y="28" width="1897" height="838" extended-state="0" />
@@ -1145,8 +1144,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/PITCHME_sky.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="91" column="32" lean-forward="false" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
+        <state relative-caret-position="137">
+          <caret line="84" column="17" lean-forward="false" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="54" />
           <folding />
         </state>
       </provider>
