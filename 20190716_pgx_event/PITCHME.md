@@ -116,7 +116,7 @@ model.most_similar( [vector], [], 出力数)
 ```
 $ python get_ranking.py <アーティスト名> <出力するランキング数> <pgのパス>
 ```
-今回はこのスクリプトを使いました
+<div class="c_sm">今回はこのスクリプトを使いました</div>
 
 <div class="c_sm">
 [https://github.com/dogrunjp/presentation/blob/master/20190716_pgx_event/get_ranking.py](https://github.com/dogrunjp/presentation/blob/master/20190716_pgx_event/get_ranking.py)

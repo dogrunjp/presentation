@@ -30,25 +30,25 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="PITCHME_sky.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="PITCHME_sky.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/css/PITCHME_sky.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="52">
-                  <caret line="81" column="9" lean-forward="true" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
+                <state relative-caret-position="392">
+                  <caret line="124" column="21" lean-forward="true" selection-start-line="124" selection-start-column="21" selection-end-line="124" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="PITCHME.md" pinned="false" current-in-tab="true">
+          <file leaf-file-name="PITCHME.md" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/20190716_pgx_event/PITCHME.md">
               <provider editor-type-id="Gfm">
                 <state />
               </provider>
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="FIRST">
-                  <first_editor relative-caret-position="298">
-                    <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+                  <first_editor relative-caret-position="434">
+                    <caret line="120" column="13" lean-forward="false" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
                     <folding />
                   </first_editor>
                   <second_editor />
@@ -564,12 +564,12 @@
       <workItem from="1558676519781" duration="2778000" />
       <workItem from="1558701612373" duration="9000" />
       <workItem from="1561016490545" duration="172000" />
-      <workItem from="1563196150101" duration="8997000" />
+      <workItem from="1563196150101" duration="9187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91355000" />
+    <option name="totallyTimeSpent" value="91545000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="588" y="28" width="1897" height="838" extended-state="0" />
@@ -1129,25 +1129,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/PITCHME_sky.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="81" column="9" lean-forward="true" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/20190716_pgx_event/PITCHME.md">
       <provider editor-type-id="Gfm">
         <state />
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="298">
-            <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <first_editor relative-caret-position="434">
+            <caret line="120" column="13" lean-forward="false" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/PITCHME_sky.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="124" column="21" lean-forward="true" selection-start-line="124" selection-start-column="21" selection-end-line="124" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
