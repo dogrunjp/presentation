@@ -42,8 +42,8 @@ docker run \
 --- 
 ### Dockerのvirtuosoにttlをインポート
 
-- [http://ja.dbpedia.org/dumps/20160407/](http://ja.dbpedia.org/dumps/20160407/)からttlを取得
-- database/virtuoso.iniに/importを追加しdocker restart
+- [http://ja.dbpedia.org/dumps/20160407/](http://ja.dbpedia.org/dumps/20160407/)からttl取得
+- database/virtuoso.iniに/importを追加しrestart
 ```
 DirsAllowed = ., /opt/virtuoso-opensource/vad, /import
 ```
@@ -81,7 +81,7 @@ PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
     ?mus2 dbpedia-owl:wikiPageID ?id2 .
 ```
 
-<div class="sm">グラフのノードはWikiPageIDとします。あとSPARQL力が低い。。</div>
+<div class="sm">グラフのノードはWikiPageIDとした。あとSPARQL力が低い。。</div>
 
 +++
 ### G2G実行
