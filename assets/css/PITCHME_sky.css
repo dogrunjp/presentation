@@ -128,3 +128,8 @@ html:-moz-full-screen-ancestor {
 .reveal .sm {
     font-size: 0.5em!important;
 }
+
+.reveal .sxm {
+    font-size: 4.5em!important;
+    font-weight: bold;
+}

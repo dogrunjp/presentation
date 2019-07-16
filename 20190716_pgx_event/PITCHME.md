@@ -179,7 +179,7 @@ python get_ranking.py サカナクション 30 \
 
 +++
 
-<div class="sm">
+<div class="sxm">
 [{'id': '114464', 'label': 'あがた森魚'}]<br/>
 
 [{'id': '423432', 'label': '板東道生'}]<br/>
