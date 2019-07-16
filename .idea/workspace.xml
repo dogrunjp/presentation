@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d6f3cd1d-1dec-4fa2-aff0-8fa89d0f5acb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20190716_pgx_event/PITCHME.md" afterPath="$PROJECT_DIR$/20190716_pgx_event/PITCHME.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/PITCHME_sky.css" afterPath="$PROJECT_DIR$/assets/css/PITCHME_sky.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,17 +28,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PITCHME_sky.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PITCHME_sky.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/PITCHME_sky.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="133" column="22" lean-forward="false" selection-start-line="133" selection-start-column="22" selection-end-line="133" selection-end-column="22" />
+            <state relative-caret-position="457">
+              <caret line="131" column="14" lean-forward="true" selection-start-line="131" selection-start-column="14" selection-end-line="131" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PITCHME.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PITCHME.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/20190716_pgx_event/PITCHME.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
@@ -82,8 +81,8 @@
         <option value="$PROJECT_DIR$/20190716_pgx_event/get_ranking.py" />
         <option value="$PROJECT_DIR$/20190716_pgx_event/PITCHME.yaml" />
         <option value="$PROJECT_DIR$/memo/memo.md" />
-        <option value="$PROJECT_DIR$/assets/css/PITCHME_sky.css" />
         <option value="$PROJECT_DIR$/20190716_pgx_event/PITCHME.md" />
+        <option value="$PROJECT_DIR$/assets/css/PITCHME_sky.css" />
       </list>
     </option>
   </component>
@@ -511,12 +510,12 @@
       <workItem from="1558701612373" duration="9000" />
       <workItem from="1561016490545" duration="172000" />
       <workItem from="1563196150101" duration="9594000" />
-      <workItem from="1563258502498" duration="2249000" />
+      <workItem from="1563258502498" duration="2337000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94201000" />
+    <option name="totallyTimeSpent" value="94289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="835" extended-state="0" />
@@ -1060,14 +1059,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/PITCHME_sky.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="133" column="22" lean-forward="false" selection-start-line="133" selection-start-column="22" selection-end-line="133" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/20190716_pgx_event/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -1080,6 +1071,14 @@
       </provider>
       <provider editor-type-id="Gfm">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/PITCHME_sky.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="131" column="14" lean-forward="true" selection-start-line="131" selection-start-column="14" selection-end-line="131" selection-end-column="14" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
